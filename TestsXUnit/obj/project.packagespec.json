@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/khanhnv/Desktop/3S_Trainning/TestsXUnit/TestsXUnit.csproj",
+    "projectUniqueName": "/home/khanhnv/Desktop/3S/Trainning-3S/TestsXUnit/TestsXUnit.csproj",
     "projectName": "TestsXUnit",
-    "projectPath": "/home/khanhnv/Desktop/3S_Trainning/TestsXUnit/TestsXUnit.csproj",
-    "outputPath": "/home/khanhnv/Desktop/3S_Trainning/TestsXUnit/obj/",
+    "projectPath": "/home/khanhnv/Desktop/3S/Trainning-3S/TestsXUnit/TestsXUnit.csproj",
+    "outputPath": "/home/khanhnv/Desktop/3S/Trainning-3S/TestsXUnit/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "/home/khanhnv/Desktop/3S_Trainning/TaskTranning/TaskTranning.csproj": {
-            "projectPath": "/home/khanhnv/Desktop/3S_Trainning/TaskTranning/TaskTranning.csproj"
+          "/home/khanhnv/Desktop/3S/Trainning-3S/TaskTranning/TaskTranning.csproj": {
+            "projectPath": "/home/khanhnv/Desktop/3S/Trainning-3S/TaskTranning/TaskTranning.csproj"
           }
         }
       }
