@@ -6,7 +6,6 @@
     ViewBag.Title = Localizer.GetLocalizedHtmlString("lbl_TitleUser");
     Layout = "_NavbarDataTable";
 }
-
 <div id="modal-placeholder" class="text-danger text-center"></div>
 <div class="sectionContent">
     <h3 class="text-center">@Localizer.GetLocalizedHtmlString("lbl_TitleUser")</h3>
@@ -16,7 +15,7 @@
     }
     else
     {
-        <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_Find"): 
+        <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_Find"):
             @ViewBag.Count
             @(ViewBag.Count > 1 ? Localizer.GetLocalizedHtmlString("lbl_Users") : Localizer.GetLocalizedHtmlString("lbl_User"))
             <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>
@@ -28,74 +27,65 @@
             <th>@Localizer.GetLocalizedHtmlString("lbl_Email")</th>
             <th>@Localizer.GetLocalizedHtmlString("lbl_FullName")</th>
             <th>@Localizer.GetLocalizedHtmlString("lbl_Phone")</th>
-            <th>@Localizer.GetLocalizedHtmlString("lbl_Picture")</th>
             <th>@Localizer.GetLocalizedHtmlString("lbl_Address")</th>
             <th>@Localizer.GetLocalizedHtmlString("lbl_IsActive")</th>
             <th>@Localizer.GetLocalizedHtmlString("lbl_StoreName")</th>
             <th>@Localizer.GetLocalizedHtmlString("lbl_RoleName")</th>
-            <th colspan="3">@CommonLocalizer.GetLocalizedHtmlString("lbl_Action")</th>
+            <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_Action")</th>
         </tr>
         </thead>
         <tbody>
-        @{ var i = 0;}
-        @foreach (var item  in Model)
-        {
-            i+=1;
-            <tr>
-                <td>@i</td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FullName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Phone)
-                </td>
-                <td>
-                    <div id="notification"></div>
-                    <button type="button" class="btn" data-toggle="modal-picture" data-target="#edit-picture" data-url="@Url.Action("EditUserImage", new {id = @item.Id})">
-                        <img src="/images/@Html.DisplayFor(modelItem => item.Picture)" width="30" alt=""/>
-                    </button>
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Address)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IsActive)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Store.StoreName)
-                </td>
-                <td>
-                    @if (item.Role == 1)
-                    {
-                        <p>Admin</p>
-                    }
-                    else
-                    {
-                        <p>User</p>
-                    }
-                </td>
-                <td>
-                    <button type="button" class="btn-link" data-toggle="modal-password" data-target="#edit-password" data-url="@Url.Action("EditPassword", new {id = @item.Id})">
-                        <img src="~/image/key.png" width="25"/>
-                    </button>
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id"><img src='~/image/edit.png' width='25'/></a>
-                </td>
-                <td>
-                    <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('@CommonLocalizer.GetLocalizedHtmlString("msg_QuestionDelete")')">
-                        <img src='~/image/delete.png'width='25'/>
-                    </a>
-                </td> 
-            </tr>
-        }
+         @{ var i = 0;}
+         @foreach (var item  in Model)
+         {
+             i+=1;
+             <tr>
+                 <td>@i</td>
+                 <td>
+                     @Html.DisplayFor(modelItem => item.Email)
+                 </td>
+                 <td>
+                     @Html.DisplayFor(modelItem => item.FullName)
+                 </td>
+                 <td>
+                     @Html.DisplayFor(modelItem => item.Phone)
+                 </td>
+                 @* <td> *@
+                 @*     <div id="notification"></div> *@
+                 @*     <button type="button" class="btn" data-toggle="modal-picture" data-target="#edit-picture" data-url="@Url.Action("EditUserImage", new {id = @item.Id})"> *@
+                 @*         <img src="/images/@Html.DisplayFor(modelItem => item.Picture)" width="30" alt=""/> *@
+                 @*     </button> *@
+                 @* </td> *@
+                 <td>
+                     @Html.DisplayFor(modelItem => item.Address)
+                 </td>
+                 <td>
+                     @Html.DisplayFor(modelItem => item.IsActive)
+                 </td>
+                 <td>
+                     @Html.DisplayFor(modelItem => item.Store.StoreName)
+                 </td>
+                 <td>
+                     @if (item.Role == 1)
+                     {
+                         <p>Admin</p>
+                     }
+                     else
+                     {
+                         <p>User</p>
+                     }
+                 </td>
+                 <td>
+                     <button type="button" class="btn-link" data-toggle="modal-password" data-target="#edit-password" data-url="@Url.Action("EditPassword", new {id = @item.Id})">
+                         <img src="~/image/key.png" width="25"/>
+                     </button>
+                     <a asp-action="Edit" asp-route-id="@item.Id"><img src='~/image/edit.png' width='25'/></a>
+                     <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('@CommonLocalizer.GetLocalizedHtmlString("msg_QuestionDelete")')">
+                         <img src='~/image/delete.png'width='25'/>
+                     </a>
+                 </td>
+             </tr>
+         }
         </tbody>
     </table>
 </div>
-
-
-
-

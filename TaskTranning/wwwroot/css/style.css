@@ -714,7 +714,7 @@ ul.breadcrumbs {
     flex-wrap: wrap;
     background: -webkit-linear-gradient(left, #8914fe 0%, #8063f5 100%);
     background: linear-gradient(to right, #8914fe 0%, #8063f5 100%);
-    padding: 17px 38px;
+    padding: 3px 10px;
     position: relative;
 }
 
@@ -780,7 +780,6 @@ ul.breadcrumbs {
     top: 100%!important;
     visibility: visible;
     opacity: 1;
-    box-shadow: 0 0 45px 0 rgba(131, 23, 254, 0.06);
 }
 
 .user-profile .dropdown-menu a {
@@ -788,11 +787,13 @@ ul.breadcrumbs {
     color: blueviolet;
     letter-spacing: 0;
     font-weight: 600;
-    padding: 4px 120px;
+    padding: 0px 100px;
+    line-height:38px ;
 }
 
 .user-profile .dropdown-menu a:hover {
     background: 	#F0F8FF;
+    
     color: #2942fa;
 }
 
