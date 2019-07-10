@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/khanhnv/Desktop/3S_Trainning/TaskTranning/TaskTranning.csproj",
+    "projectUniqueName": "/home/khanhnv/Desktop/3S/Trainning-3S/TaskTranning/TaskTranning.csproj",
     "projectName": "TaskTranning",
-    "projectPath": "/home/khanhnv/Desktop/3S_Trainning/TaskTranning/TaskTranning.csproj",
-    "outputPath": "/home/khanhnv/Desktop/3S_Trainning/TaskTranning/obj/",
+    "projectPath": "/home/khanhnv/Desktop/3S/Trainning-3S/TaskTranning/TaskTranning.csproj",
+    "outputPath": "/home/khanhnv/Desktop/3S/Trainning-3S/TaskTranning/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"

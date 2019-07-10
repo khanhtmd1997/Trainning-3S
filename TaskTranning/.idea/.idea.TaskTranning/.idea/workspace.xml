@@ -2,91 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba240124-f26b-409b-aafa-53e15a6ce423" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskTranning/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaskTranning/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskTranning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaskTranning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/BrandController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/BrandController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/BrandResource.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/BrandResource.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/BrandResource.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/BrandResource.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/BrandResource.vi-VN.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/BrandResource.vi-VN.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/CommonResource.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/CommonResource.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/CommonResource.vi-VN.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/CommonResource.vi-VN.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/BrandServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/BrandServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/IBrandServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/IBrandServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskTranning.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TaskTranning.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModels/DemoResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/DemoResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Brand/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Brand/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_ImportFile.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_ImportFile.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_NavbarDataTable.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_NavbarDataTable.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TaskTranning.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TaskTranning.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TaskTranning.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TaskTranning.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TaskTranning.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TaskTranning.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TaskTranning.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TaskTranning.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TaskTranning.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TaskTranning.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TaskTranning.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/TaskTranning.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/vi-VN/TaskTranning.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/vi-VN/TaskTranning.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Category/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Category/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Category/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Category/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Category/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Category/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Error/Error400.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Error/Error400.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Error/Error401.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Error/Error401.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Error/Error404.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Error/Error404.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Login/LoginForm.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Login/LoginForm.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Product/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Product/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Product/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Product/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Product/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Product/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Product/_ChangePicture.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Product/_ChangePicture.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Error.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Error.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Language.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Language.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_NavbarDataTable.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_NavbarDataTable.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Store/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Store/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Store/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Store/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Store/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Store/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/User/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/User/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/User/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/User/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/User/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/User/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePassword.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePassword.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePicture.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePicture.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.RazorCoreGenerate.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.Resources.BrandResource.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.Resources.BrandResource.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.Resources.BrandResource.vi-VN.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.Resources.BrandResource.vi-VN.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.Resources.CommonResource.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.Resources.CommonResource.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.Resources.CommonResource.vi-VN.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.Resources.CommonResource.vi-VN.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/TaskTranning.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/vi-VN/TaskTranning.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/vi-VN/TaskTranning.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/TaskTranning.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/TaskTranning.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/TaskTranning.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/TaskTranning.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestsXUnit/obj/Debug/netcoreapp2.2/TestsXUnit.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TestsXUnit/obj/Debug/netcoreapp2.2/TestsXUnit.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestsXUnit/obj/Debug/netcoreapp2.2/TestsXUnit.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TestsXUnit/obj/Debug/netcoreapp2.2/TestsXUnit.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestsXUnit/obj/TestsXUnit.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TestsXUnit/obj/TestsXUnit.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestsXUnit/obj/TestsXUnit.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../TestsXUnit/obj/TestsXUnit.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestsXUnit/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TestsXUnit/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestsXUnit/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TestsXUnit/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -134,209 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BrandController.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Controllers/BrandController.cs">
+      <file leaf-file-name="Microsoft.PackageDependencyResolution.targets" pinned="false" current-in-tab="true">
+        <entry file="file:///usr/share/dotnet/sdk/2.2.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-              <folding>
-                <marker date="1562727731729" expanded="false" signature="6:293" ph="..." />
-                <marker date="1562727731729" expanded="true" signature="329:7198" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="393:7196" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="408:479" ph="/// declare brand services ... " />
-                <marker date="1562727731729" expanded="true" signature="553:629" ph="/// declare brand resource file ... " />
-                <marker date="1562727731729" expanded="true" signature="725:897" ph="///  ... " />
-                <marker date="1562727731729" expanded="true" signature="1010:1126" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="1144:1241" ph="/// ExportExcelBrand ... " />
-                <marker date="1562727731729" expanded="true" signature="1307:2531" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="1374:1446" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="1527:2450" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="1771:1857" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="1960:2067" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="2190:2384" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="2641:3622" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="2711:2893" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="3004:3188" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="3279:3468" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="3633:3719" ph="///  ... " />
-                <marker date="1562727731729" expanded="true" signature="3786:4098" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="3942:4005" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="4116:4209" ph="///  ... " />
-                <marker date="1562727731729" expanded="true" signature="4265:4358" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="4368:4508" ph="///  ... " />
-                <marker date="1562727731729" expanded="true" signature="4603:5153" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="4649:5105" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="4730:4947" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="5163:5292" ph="///  ... " />
-                <marker date="1562727731729" expanded="true" signature="5364:5703" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="5444:5509" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="5598:5661" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="5713:5853" ph="///  ... " />
-                <marker date="1562727731729" expanded="true" signature="5946:6496" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="5992:6448" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="6071:6289" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="6505:6632" ph="///  ... " />
-                <marker date="1562727731729" expanded="true" signature="6743:7190" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="6823:6888" ph="{...}" />
-                <marker date="1562727731729" expanded="true" signature="6942:7146" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="table.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wwwroot/css/table.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrandResource.resx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/BrandResource.resx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="68" column="33" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IBrandServices.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Services/IBrandServices.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-              <folding>
-                <marker date="1562727731733" expanded="false" signature="6:154" ph="..." />
-                <marker date="1562727731733" expanded="true" signature="225:1782" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="240:331" ph="///  ... " />
-                <marker date="1562727731733" expanded="true" signature="389:484" ph="///  ... " />
-                <marker date="1562727731733" expanded="true" signature="553:693" ph="///  ... " />
-                <marker date="1562727731733" expanded="true" signature="771:899" ph="///  ... " />
-                <marker date="1562727731733" expanded="true" signature="963:1103" ph="///  ... " />
-                <marker date="1562727731733" expanded="true" signature="1179:1310" ph="///  ... " />
-                <marker date="1562727731733" expanded="true" signature="1368:1542" ph="///  ... " />
-                <marker date="1562727731733" expanded="true" signature="1601:1726" ph="///  ... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_NavbarDataTable.cshtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Views/Shared/_NavbarDataTable.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2745">
-              <caret line="183" column="75" selection-start-line="183" selection-start-column="75" selection-end-line="183" selection-end-column="75" />
-              <folding>
-                <marker date="1562727731733" expanded="true" signature="123:2610" ph="&lt;head.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="2145:2384" ph="&lt;script.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="2498:2602" ph="&lt;script.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="2543:2588" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="2611:9777" ph="&lt;body.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="2618:2812" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="2652:2805" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="2702:2794" ph="&lt;span.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="2813:4963" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="2841:2924" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="2869:2913" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="2929:4956" ph="&lt;header.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="2964:4942" ph="&lt;nav.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="3189:3457" ph="&lt;button.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="3470:4927" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="3548:3850" ph="&lt;ul.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="3600:3828" ph="&lt;li.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="3867:4908" ph="&lt;ul.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="3911:4886" ph="&lt;li.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="3966:4860" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="4251:4586" ph="&lt;h4.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="4486:4552" ph="&lt;i.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="4615:4829" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="4964:5022" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5023:9769" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5056:7277" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5091:5279" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5132:5264" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5288:7266" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5324:7251" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5365:7232" ph="&lt;nav.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5391:7209" ph="&lt;ul.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5448:5823" ph="&lt;li.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5496:5793" ph="&lt;a.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5632:5760" ph="&lt;span.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5848:7183" ph="&lt;li.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5881:6136" ph="&lt;a.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="5969:6103" ph="&lt;span.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="6165:7153" ph="&lt;ul.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="7282:9762" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="7352:8288" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="7390:8273" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="7490:8115" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="7551:7723" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="7744:8092" ph="@*...*@" />
-                <marker date="1562727731733" expanded="true" signature="8190:8254" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="8297:9751" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="8353:8675" ph="@..." />
-                <marker date="1562727731733" expanded="true" signature="8394:8675" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="8425:8660" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="8688:9020" ph="@..." />
-                <marker date="1562727731733" expanded="true" signature="8726:9020" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="8757:9006" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="9033:9367" ph="@..." />
-                <marker date="1562727731733" expanded="true" signature="9072:9367" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="9103:9353" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="9380:9710" ph="@..." />
-                <marker date="1562727731733" expanded="true" signature="9417:9710" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="9448:9696" ph="&lt;div.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="10833:11059" ph="&lt;script.../&gt;" />
-                <marker date="1562727731733" expanded="true" signature="11690:11909" ph="&lt;script.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrandServices.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Services/BrandServices.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2760">
-              <caret line="184" column="9" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
-              <folding>
-                <marker date="1562727731733" expanded="true" signature="6:280" ph="..." />
-                <marker date="1562727731733" expanded="true" signature="363:5579" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="378:446" ph="/// declare datacontext ... " />
-                <marker date="1562727731733" expanded="true" signature="512:575" ph="/// declare mapper ... " />
-                <marker date="1562727731733" expanded="true" signature="627:761" ph="///  ... " />
-                <marker date="1562727731733" expanded="true" signature="835:917" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="935:1025" ph="///  ... " />
-                <marker date="1562727731733" expanded="true" signature="1071:1126" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="1144:1251" ph="/// ... " />
-                <marker date="1562727731733" expanded="true" signature="1314:1509" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="1527:1680" ph="/// ... " />
-                <marker date="1562727731733" expanded="true" signature="1752:2211" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="1778:2066" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="1847:1928" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="2098:2190" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="2229:2369" ph="/// ... " />
-                <marker date="1562727731733" expanded="true" signature="2427:2614" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="2632:2783" ph="/// ... " />
-                <marker date="1562727731733" expanded="true" signature="2853:3311" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="2879:3166" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="3198:3290" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="3329:3473" ph="/// ... " />
-                <marker date="1562727731733" expanded="true" signature="3525:3901" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="3551:3763" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="3795:3887" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="3911:4097" ph="/// ... " />
-                <marker date="1562727731733" expanded="true" signature="4152:4251" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="4261:4400" ph="/// ... " />
-                <marker date="1562727731733" expanded="true" signature="4462:5573" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="4488:5439" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="4558:5395" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="4699:5377" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="4940:5355" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="5054:5274" ph="{...}" />
-                <marker date="1562727731733" expanded="true" signature="5471:5563" ph="{...}" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -382,91 +100,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../TestsXUnit/ServicesTest/TestServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../TestsXUnit/ControllerTest/UserTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../TestsXUnit/ControllerTest/TestControllerUser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePassword.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Edit.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Create.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Error/Error400.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Login/LoginForm.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Create.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Store/Create.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Error.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Language.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_NavbarDataTable.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Product/_ChangePicture.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Category/Create.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Seed/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/IBrandServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/ICategoryServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/BrandServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/CategoryServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/StoreServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/IProductServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/IUserServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/ProductServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/IStoreServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/IStockServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/StockServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/UserServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/StockResource.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/LayoutManagementResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/StoreResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/CommonResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ProductResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ErrorResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/UserResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ErrorResource.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/LayoutManagementResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/StockResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ViewLayoutResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/StoreResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/UserResource.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ProductResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/UserResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/StoreResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/StockResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/LoginResource.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/BrandResource.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ViewLayoutResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/CategoryResource.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/LayoutManagementResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ViewLayoutResource.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/HomeResource.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/StockResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ErrorResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ViewLayoutResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/CommonResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/UserResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/LoginResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ProductResource.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/CommonResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/CategoryResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/BrandResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ProductResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ResourcesServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/LoginResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/LoginResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57010887-BA3F-46F4-8547-B67751974C6D/71/a6064a69/AsyncValueTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/CategoryResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/CommonResource.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/BrandResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/ErrorResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/CategoryResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/BrandResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/StoreResource.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources/LayoutManagementResource.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Validator/ProductValidator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Validator/AddUserValidator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Validator/EditPictureProductValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Validator/LoginValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Validator/StoreValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Validator/BrandValidator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -512,7 +145,7 @@
     <setting file="file://$PROJECT_DIR$/Views/Shared/_Error.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/_ImportFile.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Views/Shared/_NavbarDataTable.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Shared/_NavbarDataTable.cshtml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ViewModels/StoreViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Product/_ChangePicture.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ViewModels/EditPictureProductViewModel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -540,7 +173,7 @@
     <setting file="file://$PROJECT_DIR$/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ViewModels/StockViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Stock.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/BrandController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/BrandController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/LoginController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Store.cs" root0="FORCE_HIGHLIGHTING" />
@@ -555,6 +188,91 @@
     <setting file="file://$PROJECT_DIR$/Infrastructure/SecurePasswordHasher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../TestsXUnit/TestHelpers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../TestsXUnit/AutoMapperConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../TestsXUnit/ServicesTest/TestServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../TestsXUnit/ControllerTest/UserTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../TestsXUnit/ControllerTest/TestControllerUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/User/_ChangePassword.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Edit.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Brand/Create.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Error/Error400.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Login/LoginForm.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Stock/Create.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Store/Create.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Error.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Language.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_NavbarDataTable.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Product/_ChangePicture.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/Razor/Views/Category/Create.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57010887-BA3F-46F4-8547-B67751974C6D/71/a6064a69/AsyncValueTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Seed/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/IBrandServices.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/ICategoryServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/BrandServices.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/CategoryServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/StoreServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/IProductServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/IUserServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/ProductServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/IStoreServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/IStockServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/StockServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/UserServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/StockResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/LayoutManagementResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/StoreResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/CommonResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ProductResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ErrorResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/UserResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ErrorResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/LayoutManagementResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/StockResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ViewLayoutResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/StoreResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/UserResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ProductResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/UserResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/StoreResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/StockResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/LoginResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/BrandResource.resx" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ViewLayoutResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/CategoryResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/LayoutManagementResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ViewLayoutResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/HomeResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/StockResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ErrorResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ViewLayoutResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/CommonResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/UserResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/LoginResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ProductResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/CommonResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/CategoryResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/BrandResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ProductResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ResourcesServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/LoginResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/LoginResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/CategoryResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/CommonResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/BrandResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/ErrorResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/CategoryResource.vi-VN.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/BrandResource.vi-VN.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/StoreResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/LayoutManagementResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Validator/ProductValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Validator/AddUserValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Validator/EditPictureProductValidator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -662,7 +380,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TaskTranning.sln" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TaskTranning.csproj" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
@@ -748,11 +466,12 @@
       <workItem from="1562660169259" duration="8217000" />
       <workItem from="1562720416179" duration="6199000" />
       <workItem from="1562727500993" duration="281000" />
+      <workItem from="1562728249298" duration="247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338243000" />
+    <option name="totallyTimeSpent" value="338490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,7 +483,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="700" extended-state="7" />
+    <frame x="0" y="25" width="1366" height="700" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -777,8 +496,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.32804233" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27727273" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28181818" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.32804233" />
       <window_info anchor="right" id="Database" order="3" weight="0.33314887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8610957" weight="0.39858907" />
@@ -787,37 +507,36 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.3264642" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.3264642" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="NuGet" order="8" />
-      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28334257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Build" order="16" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="REST Client" order="12" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32982844" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3264642" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.8776978" weight="0.3991323" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.12230216" side_tool="true" weight="0.3991323" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3264642" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" id="Database" order="4" weight="0.23519646" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -853,7 +572,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Logs/log-20190603.txt" />
     <entry file="file://$PROJECT_DIR$/Logs/log-20190527.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1124,50 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Services/BrandServices.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="184" column="9" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
-          <folding>
-            <marker date="1562727731733" expanded="true" signature="6:280" ph="..." />
-            <marker date="1562727731733" expanded="true" signature="363:5579" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="378:446" ph="/// declare datacontext ... " />
-            <marker date="1562727731733" expanded="true" signature="512:575" ph="/// declare mapper ... " />
-            <marker date="1562727731733" expanded="true" signature="627:761" ph="///  ... " />
-            <marker date="1562727731733" expanded="true" signature="835:917" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="935:1025" ph="///  ... " />
-            <marker date="1562727731733" expanded="true" signature="1071:1126" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="1144:1251" ph="/// ... " />
-            <marker date="1562727731733" expanded="true" signature="1314:1509" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="1527:1680" ph="/// ... " />
-            <marker date="1562727731733" expanded="true" signature="1752:2211" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="1778:2066" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="1847:1928" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="2098:2190" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="2229:2369" ph="/// ... " />
-            <marker date="1562727731733" expanded="true" signature="2427:2614" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="2632:2783" ph="/// ... " />
-            <marker date="1562727731733" expanded="true" signature="2853:3311" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="2879:3166" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="3198:3290" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="3329:3473" ph="/// ... " />
-            <marker date="1562727731733" expanded="true" signature="3525:3901" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="3551:3763" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="3795:3887" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="3911:4097" ph="/// ... " />
-            <marker date="1562727731733" expanded="true" signature="4152:4251" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="4261:4400" ph="/// ... " />
-            <marker date="1562727731733" expanded="true" signature="4462:5573" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="4488:5439" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="4558:5395" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="4699:5377" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="4940:5355" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="5054:5274" ph="{...}" />
-            <marker date="1562727731733" expanded="true" signature="5471:5563" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/BrandResource.vi-VN.resx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1175,9 +849,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Brand/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/BrandResource.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wwwroot/css/table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/BrandController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+          <folding>
+            <marker date="1562727731729" expanded="false" signature="6:293" ph="..." />
+            <marker date="1562727731729" expanded="true" signature="329:7198" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="393:7196" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="408:479" ph="/// declare brand services ... " />
+            <marker date="1562727731729" expanded="true" signature="553:629" ph="/// declare brand resource file ... " />
+            <marker date="1562727731729" expanded="true" signature="725:897" ph="///  ... " />
+            <marker date="1562727731729" expanded="true" signature="1010:1126" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="1144:1241" ph="/// ExportExcelBrand ... " />
+            <marker date="1562727731729" expanded="true" signature="1307:2531" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="1374:1446" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="1527:2450" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="1771:1857" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="1960:2067" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="2190:2384" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="2641:3622" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="2711:2893" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="3004:3188" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="3279:3468" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="3633:3719" ph="///  ... " />
+            <marker date="1562727731729" expanded="true" signature="3786:4098" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="3942:4005" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="4116:4209" ph="///  ... " />
+            <marker date="1562727731729" expanded="true" signature="4265:4358" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="4368:4508" ph="///  ... " />
+            <marker date="1562727731729" expanded="true" signature="4603:5153" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="4649:5105" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="4730:4947" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="5163:5292" ph="///  ... " />
+            <marker date="1562727731729" expanded="true" signature="5364:5703" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="5444:5509" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="5598:5661" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="5713:5853" ph="///  ... " />
+            <marker date="1562727731729" expanded="true" signature="5946:6496" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="5992:6448" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="6071:6289" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="6505:6632" ph="///  ... " />
+            <marker date="1562727731729" expanded="true" signature="6743:7190" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="6823:6888" ph="{...}" />
+            <marker date="1562727731729" expanded="true" signature="6942:7146" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Services/IBrandServices.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
+        <state relative-caret-position="321">
           <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
           <folding>
             <marker date="1562727731733" expanded="false" signature="6:154" ph="..." />
@@ -1194,23 +937,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Brand/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/BrandResource.resx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Views/Shared/_NavbarDataTable.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2745">
+        <state relative-caret-position="321">
           <caret line="183" column="75" selection-start-line="183" selection-start-column="75" selection-end-line="183" selection-end-column="75" />
           <folding>
             <marker date="1562727731733" expanded="true" signature="123:2610" ph="&lt;head.../&gt;" />
@@ -1278,58 +1007,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wwwroot/css/table.css">
+    <entry file="file://$PROJECT_DIR$/Services/BrandServices.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        <state relative-caret-position="321">
+          <caret line="184" column="9" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
+          <folding>
+            <marker date="1562727731733" expanded="false" signature="6:280" ph="..." />
+            <marker date="1562727731733" expanded="true" signature="313:5581" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="363:5579" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="378:446" ph="/// declare datacontext ... " />
+            <marker date="1562727731733" expanded="true" signature="512:575" ph="/// declare mapper ... " />
+            <marker date="1562727731733" expanded="true" signature="627:761" ph="///  ... " />
+            <marker date="1562727731733" expanded="true" signature="835:917" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="935:1025" ph="///  ... " />
+            <marker date="1562727731733" expanded="true" signature="1071:1126" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="1144:1251" ph="/// ... " />
+            <marker date="1562727731733" expanded="true" signature="1314:1509" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="1527:1680" ph="/// ... " />
+            <marker date="1562727731733" expanded="true" signature="1752:2211" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="1778:2066" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="1847:1928" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="2098:2190" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="2229:2369" ph="/// ... " />
+            <marker date="1562727731733" expanded="true" signature="2427:2614" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="2632:2783" ph="/// ... " />
+            <marker date="1562727731733" expanded="true" signature="2853:3311" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="2879:3166" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="3198:3290" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="3329:3473" ph="/// ... " />
+            <marker date="1562727731733" expanded="true" signature="3525:3901" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="3551:3763" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="3795:3887" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="3911:4097" ph="/// ... " />
+            <marker date="1562727731733" expanded="true" signature="4152:4251" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="4261:4400" ph="/// ... " />
+            <marker date="1562727731733" expanded="true" signature="4462:5573" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="4488:5439" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="4558:5395" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="4699:5377" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="4940:5355" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="5054:5274" ph="{...}" />
+            <marker date="1562727731733" expanded="true" signature="5471:5563" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/BrandController.cs">
+    <entry file="file:///usr/share/dotnet/sdk/2.2.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-          <folding>
-            <marker date="1562727731729" expanded="false" signature="6:293" ph="..." />
-            <marker date="1562727731729" expanded="true" signature="329:7198" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="393:7196" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="408:479" ph="/// declare brand services ... " />
-            <marker date="1562727731729" expanded="true" signature="553:629" ph="/// declare brand resource file ... " />
-            <marker date="1562727731729" expanded="true" signature="725:897" ph="///  ... " />
-            <marker date="1562727731729" expanded="true" signature="1010:1126" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="1144:1241" ph="/// ExportExcelBrand ... " />
-            <marker date="1562727731729" expanded="true" signature="1307:2531" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="1374:1446" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="1527:2450" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="1771:1857" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="1960:2067" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="2190:2384" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="2641:3622" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="2711:2893" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="3004:3188" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="3279:3468" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="3633:3719" ph="///  ... " />
-            <marker date="1562727731729" expanded="true" signature="3786:4098" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="3942:4005" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="4116:4209" ph="///  ... " />
-            <marker date="1562727731729" expanded="true" signature="4265:4358" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="4368:4508" ph="///  ... " />
-            <marker date="1562727731729" expanded="true" signature="4603:5153" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="4649:5105" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="4730:4947" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="5163:5292" ph="///  ... " />
-            <marker date="1562727731729" expanded="true" signature="5364:5703" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="5444:5509" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="5598:5661" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="5713:5853" ph="///  ... " />
-            <marker date="1562727731729" expanded="true" signature="5946:6496" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="5992:6448" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="6071:6289" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="6505:6632" ph="///  ... " />
-            <marker date="1562727731729" expanded="true" signature="6743:7190" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="6823:6888" ph="{...}" />
-            <marker date="1562727731729" expanded="true" signature="6942:7146" ph="{...}" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
         </state>
       </provider>
     </entry>
