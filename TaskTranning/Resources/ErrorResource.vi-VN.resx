@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="lbl_Unauthorized">
+        <value>KHÔNG CÓ QUYỀN TRUY CẬP</value>
+    </data>
+    <data name="lbl_Error401">
+        <value>LỖI 401</value>
+    </data>
+    <data name="btn_Back">
+        <value>QUAY TRỞ LẠI</value>
+    </data>
+    <data name="btn_Login">
+        <value>TỚI ĐĂNG NHẬP</value>
+    </data>
+    <data name="lbl_TitleError401">
+        <value>Trang Lỗi 401</value>
+    </data>
+    <data name="lbl_TitleError404">
+        <value>Trang Lỗi 404</value>
+    </data>
+    <data name="lbl_TitleError400">
+        <value>Trang Lỗi 400</value>
+    </data>
+    <data name="lbl_HTTPRequest">
+        <value>Yêu Cầu HTTP</value>
+    </data>
+    <data name="lbl_Error400">
+        <value>Lỗi 400</value>
+    </data>
+</root>

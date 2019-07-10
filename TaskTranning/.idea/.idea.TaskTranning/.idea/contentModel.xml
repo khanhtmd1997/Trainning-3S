@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_TaskTranning.1677852756.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.1.1/build/netcoreapp1.0" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Controllers" t="Include">
+        <e p="BrandController.cs" t="Include" />
+        <e p="CategoryController.cs" t="Include" />
+        <e p="ErrorController.cs" t="Include" />
+        <e p="HomeController.cs" t="Include" />
+        <e p="LoginController.cs" t="Include" />
+        <e p="ProductController.cs" t="Include" />
+        <e p="StockController.cs" t="Include" />
+        <e p="StoreController.cs" t="Include" />
+        <e p="UserController.cs" t="Include" />
+      </e>
+      <e p="Filters" t="Include">
+        <e p="FiltersSample.cs" t="Include" />
+      </e>
+      <e p="Infrastructure" t="Include">
+        <e p="SecurePasswordHasher.cs" t="Include" />
+      </e>
+      <e p="Logs" t="Include">
+        <e p="log-20190527.txt" t="Include" />
+        <e p="log-20190528.txt" t="Include" />
+        <e p="log-20190604.txt" t="Include" />
+        <e p="log-20190607.txt" t="Include" />
+        <e p="log-20190617.txt" t="Include" />
+        <e p="log-20190709.txt" t="Include" />
+        <e p="log-20190710.txt" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20190523074112_AddUser.Designer.cs" t="Include" />
+        <e p="20190523074112_AddUser.cs" t="Include" />
+        <e p="20190523074432_AddStore.Designer.cs" t="Include" />
+        <e p="20190523074432_AddStore.cs" t="Include" />
+        <e p="20190523074615_AddCategory.Designer.cs" t="Include" />
+        <e p="20190523074615_AddCategory.cs" t="Include" />
+        <e p="20190523074744_AddProduct.Designer.cs" t="Include" />
+        <e p="20190523074744_AddProduct.cs" t="Include" />
+        <e p="20190523074927_AddBrand.Designer.cs" t="Include" />
+        <e p="20190523074927_AddBrand.cs" t="Include" />
+        <e p="20190523075045_AddStock.Designer.cs" t="Include" />
+        <e p="20190523075045_AddStock.cs" t="Include" />
+        <e p="20190523075340_UpdateStoreIdForUser.Designer.cs" t="Include" />
+        <e p="20190523075340_UpdateStoreIdForUser.cs" t="Include" />
+        <e p="20190523075457_AddRelationshipUserStore.Designer.cs" t="Include" />
+        <e p="20190523075457_AddRelationshipUserStore.cs" t="Include" />
+        <e p="20190523075724_AddRelationshipCateProduct.Designer.cs" t="Include" />
+        <e p="20190523075724_AddRelationshipCateProduct.cs" t="Include" />
+        <e p="20190523075853_AddRelationshipBrandProduct.Designer.cs" t="Include" />
+        <e p="20190523075853_AddRelationshipBrandProduct.cs" t="Include" />
+        <e p="20190523080114_AddRelationshipStockProduct.Designer.cs" t="Include" />
+        <e p="20190523080114_AddRelationshipStockProduct.cs" t="Include" />
+        <e p="20190523080210_AddRelationshipStoreStock.Designer.cs" t="Include" />
+        <e p="20190523080210_AddRelationshipStoreStock.cs" t="Include" />
+        <e p="20190523080411_AddRole.Designer.cs" t="Include" />
+        <e p="20190523080411_AddRole.cs" t="Include" />
+        <e p="20190523080547_UpdateRoleIdForUser.Designer.cs" t="Include" />
+        <e p="20190523080547_UpdateRoleIdForUser.cs" t="Include" />
+        <e p="20190523080659_AddRelationshipRoleUser.Designer.cs" t="Include" />
+        <e p="20190523080659_AddRelationshipRoleUser.cs" t="Include" />
+        <e p="20190524020539_UpdateUserRoleDeleteRole.Designer.cs" t="Include" />
+        <e p="20190524020539_UpdateUserRoleDeleteRole.cs" t="Include" />
+        <e p="CodeFirstDataContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Brand.cs" t="Include" />
+        <e p="Category.cs" t="Include" />
+        <e p="CodeFirstDataContext.cs" t="Include" />
+        <e p="ErrorViewModel.cs" t="Include" />
+        <e p="Product.cs" t="Include" />
+        <e p="Role.cs" t="Include" />
+        <e p="Stock.cs" t="Include" />
+        <e p="Store.cs" t="Include" />
+        <e p="User.cs" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Resources" t="Include">
+        <e p="BrandResource.Designer.cs" t="Include" />
+        <e p="BrandResource.resx" t="Include" />
+        <e p="BrandResource.vi-VN.Designer.cs" t="Include" />
+        <e p="BrandResource.vi-VN.resx" t="Include" />
+        <e p="CategoryResource.Designer.cs" t="Include" />
+        <e p="CategoryResource.resx" t="Include" />
+        <e p="CategoryResource.vi-VN.Designer.cs" t="Include" />
+        <e p="CategoryResource.vi-VN.resx" t="Include" />
+        <e p="CommonResource.Designer.cs" t="Include" />
+        <e p="CommonResource.resx" t="Include" />
+        <e p="CommonResource.vi-VN.Designer.cs" t="Include" />
+        <e p="CommonResource.vi-VN.resx" t="Include" />
+        <e p="ErrorResource.Designer.cs" t="Include" />
+        <e p="ErrorResource.resx" t="Include" />
+        <e p="ErrorResource.vi-VN.Designer.cs" t="Include" />
+        <e p="ErrorResource.vi-VN.resx" t="Include" />
+        <e p="HomeResource.Designer.cs" t="Include" />
+        <e p="HomeResource.resx" t="Include" />
+        <e p="HomeResource.vi-VN.resx" t="Include" />
+        <e p="LayoutManagementResource.Designer.cs" t="Include" />
+        <e p="LayoutManagementResource.resx" t="Include" />
+        <e p="LayoutManagementResource.vi-VN.Designer.cs" t="Include" />
+        <e p="LayoutManagementResource.vi-VN.resx" t="Include" />
+        <e p="LoginResource.Designer.cs" t="Include" />
+        <e p="LoginResource.resx" t="Include" />
+        <e p="LoginResource.vi-VN.Designer.cs" t="Include" />
+        <e p="LoginResource.vi-VN.resx" t="Include" />
+        <e p="ProductResource.Designer.cs" t="Include" />
+        <e p="ProductResource.resx" t="Include" />
+        <e p="ProductResource.vi-VN.Designer.cs" t="Include" />
+        <e p="ProductResource.vi-VN.resx" t="Include" />
+        <e p="ResourcesServices.cs" t="Include" />
+        <e p="StockResource.Designer.cs" t="Include" />
+        <e p="StockResource.resx" t="Include" />
+        <e p="StockResource.vi-VN.Designer.cs" t="Include" />
+        <e p="StockResource.vi-VN.resx" t="Include" />
+        <e p="StoreResource.Designer.cs" t="Include" />
+        <e p="StoreResource.resx" t="Include" />
+        <e p="StoreResource.vi-VN.Designer.cs" t="Include" />
+        <e p="StoreResource.vi-VN.resx" t="Include" />
+        <e p="UserResource.Designer.cs" t="Include" />
+        <e p="UserResource.resx" t="Include" />
+        <e p="UserResource.vi-VN.Designer.cs" t="Include" />
+        <e p="UserResource.vi-VN.resx" t="Include" />
+        <e p="ViewLayoutResource.Designer.cs" t="Include" />
+        <e p="ViewLayoutResource.resx" t="Include" />
+        <e p="ViewLayoutResource.vi-VN.Designer.cs" t="Include" />
+        <e p="ViewLayoutResource.vi-VN.resx" t="Include" />
+      </e>
+      <e p="Seed" t="Include">
+        <e p="DbContext.cs" t="Include" />
+      </e>
+      <e p="Services" t="Include">
+        <e p="BrandServices.cs" t="Include" />
+        <e p="CategoryServices.cs" t="Include" />
+        <e p="IBrandServices.cs" t="Include" />
+        <e p="ICategoryServices.cs" t="Include" />
+        <e p="IProductServices.cs" t="Include" />
+        <e p="IStockServices.cs" t="Include" />
+        <e p="IStoreServices.cs" t="Include" />
+        <e p="IUserServices.cs" t="Include" />
+        <e p="ProductServices.cs" t="Include" />
+        <e p="StockServices.cs" t="Include" />
+        <e p="StoreServices.cs" t="Include" />
+        <e p="UserServices.cs" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="TaskTrainning3S" t="Include" />
+      <e p="TaskTranning.csproj" t="IncludeRecursive" />
+      <e p="TaskTranning.sln" t="IncludeFlat" />
+      <e p="Trainning3S" t="Include" />
+      <e p="Validator" t="Include">
+        <e p="AddUserValidator.cs" t="Include" />
+        <e p="BrandValidator.cs" t="Include" />
+        <e p="CategoryValidator.cs" t="Include" />
+        <e p="EditPasswordValidator.cs" t="Include" />
+        <e p="EditPictureProductValidator.cs" t="Include" />
+        <e p="EditUserValidator.cs" t="Include" />
+        <e p="LoginValidator.cs" t="Include" />
+        <e p="ProductValidator.cs" t="Include" />
+        <e p="StockValidator.cs" t="Include" />
+        <e p="StoreValidator.cs" t="Include" />
+      </e>
+      <e p="ViewModels" t="Include">
+        <e p="AddUserViewModel.cs" t="Include" />
+        <e p="BrandViewModel.cs" t="Include" />
+        <e p="CategoryViewModel.cs" t="Include" />
+        <e p="DemoResponse.cs" t="Include" />
+        <e p="EditPasswordUserViewModel.cs" t="Include" />
+        <e p="EditPictureProductViewModel.cs" t="Include" />
+        <e p="EditPictureUserViewModel.cs" t="Include" />
+        <e p="EditUserViewModel.cs" t="Include" />
+        <e p="LoginViewModel.cs" t="Include" />
+        <e p="MapperProfile.cs" t="Include" />
+        <e p="ProductViewModel.cs" t="Include" />
+        <e p="StockViewModel.cs" t="Include" />
+        <e p="StoreViewModel.cs" t="Include" />
+      </e>
+      <e p="Views" t="Include">
+        <e p="Brand" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Category" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Error" t="Include">
+          <e p="Error400.cshtml" t="Include" />
+          <e p="Error401.cshtml" t="Include" />
+          <e p="Error404.cshtml" t="Include" />
+        </e>
+        <e p="Home" t="Include">
+          <e p="Index.cshtml" t="Include" />
+          <e p="Privacy.cshtml" t="Include" />
+        </e>
+        <e p="Login" t="Include">
+          <e p="LoginForm.cshtml" t="Include" />
+        </e>
+        <e p="Product" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="_ChangePicture.cshtml" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="Error.cshtml" t="Include" />
+          <e p="_CookieConsentPartial.cshtml" t="Include" />
+          <e p="_Error.cshtml" t="Include" />
+          <e p="_ImportFile.cshtml" t="Include" />
+          <e p="_Language.cshtml" t="Include" />
+          <e p="_Layout.cshtml" t="Include" />
+          <e p="_NavbarDataTable.cshtml" t="Include" />
+          <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+        </e>
+        <e p="Stock" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Store" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="User" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="_ChangePassword.cshtml" t="Include" />
+          <e p="_ChangePicture.cshtml" t="Include" />
+        </e>
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="_ViewStart.cshtml" t="Include" />
+      </e>
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="TaskTranning.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="wwwroot" t="Include">
+        <e p="css" t="Include">
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="dataTables.bootstrap4.min.css" t="Include" />
+          <e p="default-css.css" t="Include" />
+          <e p="error404.css" t="Include" />
+          <e p="export.css" t="Include" />
+          <e p="font-awesome.min.css" t="Include" />
+          <e p="loginForm.css" t="Include" />
+          <e p="metisMenu.css" t="Include" />
+          <e p="owl.carousel.min.css" t="Include" />
+          <e p="responsive.css" t="Include" />
+          <e p="site.css" t="Include" />
+          <e p="slicknav.min.css" t="Include" />
+          <e p="style.css" t="Include" />
+          <e p="table.css" t="Include" />
+          <e p="themify-icons.css" t="Include" />
+          <e p="typography.css" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="FontAwesome.otf" t="Include" />
+          <e p="Lato.woff" t="Include" />
+          <e p="fontawesome-webfont.eot" t="Include" />
+          <e p="fontawesome-webfont.svg" t="Include" />
+          <e p="fontawesome-webfont.ttf" t="Include" />
+          <e p="fontawesome-webfont.woff" t="Include" />
+          <e p="fontawesome-webfont.woff2" t="Include" />
+          <e p="themify.eot" t="Include" />
+          <e p="themify.svg" t="Include" />
+          <e p="themify.ttf" t="Include" />
+          <e p="themify.woff" t="Include" />
+        </e>
+        <e p="image" t="Include">
+          <e p="address.png" t="Include" />
+          <e p="author-img1.jpg" t="Include" />
+          <e p="author-img2.jpg" t="Include" />
+          <e p="author-img3.jpg" t="Include" />
+          <e p="author-img4.jpg" t="Include" />
+          <e p="avatar.png" t="Include" />
+          <e p="background.png" t="Include" />
+          <e p="cake.png" t="Include" />
+          <e p="create.png" t="Include" />
+          <e p="delete.png" t="Include" />
+          <e p="edit.png" t="Include" />
+          <e p="email.png" t="Include" />
+          <e p="en-US.png" t="Include" />
+          <e p="facebook.png" t="Include" />
+          <e p="icon1.png" t="Include" />
+          <e p="icon2.png" t="Include" />
+          <e p="key.png" t="Include" />
+          <e p="logo-3si.png" t="Include" />
+          <e p="logo.jpg" t="Include" />
+          <e p="logo.png" t="Include" />
+          <e p="peole.png" t="Include" />
+          <e p="phone.png" t="Include" />
+          <e p="phu-xuan.png" t="Include" />
+          <e p="trends-up-icon.png" t="Include" />
+          <e p="triangle-down.png" t="Include" />
+          <e p="triangle-up.png" t="Include" />
+          <e p="unnamed.jpg" t="Include" />
+          <e p="vi-VN.png" t="Include" />
+        </e>
+        <e p="images" t="Include">
+          <e p="26219558_1267443756734427_618943278158967452_n.jpg" t="Include" />
+          <e p="29598088_1326493470829455_57983343029575195_n.jpg" t="Include" />
+          <e p="Huan.jpg" t="Include" />
+          <e p="IMG_20190311_123916.jpg" t="Include" />
+          <e p="Khanh.jpg" t="Include" />
+          <e p="Loc.jpg" t="Include" />
+          <e p="O2Cam_20190217202235.jpg" t="Include" />
+          <e p="Tram-Anh-Sex-Thumb.jpg" t="Include" />
+          <e p="logo.jpg" t="Include" />
+          <e p="unnamed.jpg" t="Include" />
+        </e>
+        <e p="js" t="Include">
+          <e p="Chart.min.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="dataTables.bootstrap4.min.js" t="Include" />
+          <e p="highcharts.js" t="Include" />
+          <e p="jquery-2.2.4.min.js" t="Include" />
+          <e p="jquery-3.3.1.js" t="Include" />
+          <e p="jquery.dataTable.min.js" t="Include" />
+          <e p="jquery.slicknav.min.js" t="Include" />
+          <e p="jquery.slimscroll.min.js" t="Include" />
+          <e p="line-chart.js" t="Include" />
+          <e p="metisMenu.min.js" t="Include" />
+          <e p="modalForm.js" t="Include" />
+          <e p="modernizr-2.8.3.min.js" t="Include" />
+          <e p="owl.carousel.min.js" t="Include" />
+          <e p="pie-chart.js" t="Include" />
+          <e p="plugins.js" t="Include" />
+          <e p="popper.min.js" t="Include" />
+          <e p="rocket-loader.min.js" t="Include" />
+          <e p="scripts.js" t="Include" />
+          <e p="site.js" t="Include" />
+          <e p="zingchart.min.js" t="Include" />
+        </e>
+        <e p="lib" t="Include">
+          <e p="bootstrap" t="Include">
+            <e p="LICENSE" t="Include" />
+            <e p="dist" t="Include">
+              <e p="css" t="Include">
+                <e p="bootstrap-grid.css" t="Include" />
+                <e p="bootstrap-grid.css.map" t="Include" />
+                <e p="bootstrap-grid.min.css" t="Include" />
+                <e p="bootstrap-grid.min.css.map" t="Include" />
+                <e p="bootstrap-reboot.css" t="Include" />
+                <e p="bootstrap-reboot.css.map" t="Include" />
+                <e p="bootstrap-reboot.min.css" t="Include" />
+                <e p="bootstrap-reboot.min.css.map" t="Include" />
+                <e p="bootstrap.css" t="Include" />
+                <e p="bootstrap.css.map" t="Include" />
+                <e p="bootstrap.min.css" t="Include" />
+                <e p="bootstrap.min.css.map" t="Include" />
+              </e>
+              <e p="js" t="Include">
+                <e p="bootstrap.bundle.js" t="Include" />
+                <e p="bootstrap.bundle.js.map" t="Include" />
+                <e p="bootstrap.bundle.min.js" t="Include" />
+                <e p="bootstrap.bundle.min.js.map" t="Include" />
+                <e p="bootstrap.js" t="Include" />
+                <e p="bootstrap.js.map" t="Include" />
+                <e p="bootstrap.min.js" t="Include" />
+                <e p="bootstrap.min.js.map" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="jquery" t="Include">
+            <e p="LICENSE.txt" t="Include" />
+            <e p="dist" t="Include">
+              <e p="jquery.js" t="Include" />
+              <e p="jquery.min.js" t="Include" />
+              <e p="jquery.min.map" t="Include" />
+            </e>
+          </e>
+          <e p="jquery-validation" t="Include">
+            <e p="LICENSE.md" t="Include" />
+            <e p="dist" t="Include">
+              <e p="additional-methods.js" t="Include" />
+              <e p="additional-methods.min.js" t="Include" />
+              <e p="jquery.validate.js" t="Include" />
+              <e p="jquery.validate.min.js" t="Include" />
+            </e>
+          </e>
+          <e p="jquery-validation-unobtrusive" t="Include">
+            <e p="LICENSE.txt" t="Include" />
+            <e p="jquery.validate.unobtrusive.js" t="Include" />
+            <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
+    <e p="$PROJECT_DIR$/../TestsXUnit" t="IncludeRecursive">
+      <e p="AutoMapperConfig.cs" t="Include" />
+      <e p="ControllerTest" t="Include">
+        <e p="TestControllerUser.cs" t="Include" />
+        <e p="UserTest.cs" t="Include" />
+      </e>
+      <e p="ServicesTest" t="Include">
+        <e p="TestServices.cs" t="Include" />
+      </e>
+      <e p="TestHelpers.cs" t="Include" />
+      <e p="TestsXUnit.csproj" t="IncludeRecursive" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="TestsXUnit.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

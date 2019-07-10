@@ -1,0 +1,26 @@
+﻿@model TaskTranning.ViewModels.EditPictureUserViewModel
+@using TaskTranning.Resources
+@inject ResourcesServices<ProductResource> Localizer
+<div class="modal fade" id="edit-picture" tabindex="-1" role="dialog" aria-labelledby="editPictureLable" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-danger" id="editPictureLable">@Localizer.GetLocalizedHtmlString("lbl_TitleEditProduct")</h5>
+            </div>
+            <div class="modal-body">
+                <form asp-action="EditUserImage" asp-controller="User" enctype="multipart/form-data">
+                    <input name="IsValid" type="hidden" value="@ViewData.ModelState.IsValid.ToString()"/>
+                    <div class="form-group">
+                        <label>lbl_picture</label>
+                        <input asp-for="PictureFile" type="file" class="form-control"/>
+                        <span asp-validation-for="PictureFile" class="form-text text-danger"></span>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">@Localizer.GetLocalizedHtmlString("btn_Close")</button>
+                <button type="button" class="btn btn-primary" data-save="modal">@Localizer.GetLocalizedHtmlString("btn_Save")</button>
+            </div>
+        </div>
+    </div>
+</div>

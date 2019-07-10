@@ -1,0 +1,51 @@
+﻿@model List<CategoryViewModel>
+@using TaskTranning.Resources
+@using TaskTranning.ViewModels
+@inject ResourcesServices<CategoryResource> Localizer
+@inject ResourcesServices<CommonResource> CommonLocalizer
+@{
+    ViewBag.Title = Localizer.GetLocalizedHtmlString("lbl_TitleCategory");
+    Layout = "_NavbarDataTable";
+}
+    <div class="sectionContent">
+        <h3 class="text-center">@Localizer.GetLocalizedHtmlString("lbl_TitleCategory")</h3>
+        @if (ViewBag.Count == 0)
+        {
+            <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_NotData") - <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>
+        }
+        else
+        {
+            <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_Find"): 
+                @ViewBag.Count 
+                @(ViewBag.Count > 1 ? Localizer.GetLocalizedHtmlString("lbl_Categories") : Localizer.GetLocalizedHtmlString("lbl_Category"))
+                <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>
+        }
+        <table id="table_id" class="table table-bordered">
+            <thead class="text-center">
+            <tr>
+                <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_NumericalOrder")</th>
+                <th>@Localizer.GetLocalizedHtmlString("lbl_CategoryName")</th>
+                <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_Action")</th>
+            </tr>
+            </thead>
+            <tbody>
+            @{ var i = 0;}
+            @foreach (var item  in Model)
+            {
+                i += 1;
+                <tr>
+                    <td>@i</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CategoryName)
+                    </td >
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id"><img src='~/image/edit.png' width='40'/></a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('@CommonLocalizer.GetLocalizedHtmlString("msg_QuestionDelete")')">
+                            <img src='~/image/delete.png'width='40'/>
+                        </a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+     </div>

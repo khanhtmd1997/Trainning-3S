@@ -1,0 +1,74 @@
+﻿@model List<ProductViewModel>
+@using TaskTranning.Resources
+@using TaskTranning.ViewModels
+@inject ResourcesServices<ProductResource> Localizer
+@inject ResourcesServices<CommonResource> CommonLocalizer
+@{
+    ViewBag.Title = Localizer.GetLocalizedHtmlString("lbl_TitleProduct");
+    Layout = "_NavbarDataTable";
+}
+<div class="sectionContent">
+    <h3 class="text-center">@Localizer.GetLocalizedHtmlString("lbl_TitleProduct")</h3>
+    @if (ViewBag.Count == 0)
+    {
+        <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_NotData") - <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>
+    }
+    else
+    {
+        <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_Find"): 
+            @ViewBag.Count 
+            @(ViewBag.Count > 1 ? Localizer.GetLocalizedHtmlString("lbl_Products") : Localizer.GetLocalizedHtmlString("lbl_Product"))
+            <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>
+    }
+    <table id="table_id" class="table table-bordered">
+        <thead class="text-center">
+        <tr>
+            <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_NumericalOrder")</th>
+            <th>@Localizer.GetLocalizedHtmlString("lbl_ProductName")</th>
+            <th>@Localizer.GetLocalizedHtmlString("lbl_BrandName")</th>
+            <th>@Localizer.GetLocalizedHtmlString("lbl_CategoryName")</th>
+            <th>@Localizer.GetLocalizedHtmlString("lbl_ModelYear")</th>
+            <th>@Localizer.GetLocalizedHtmlString("lbl_ListPrice")</th>
+            <th>@Localizer.GetLocalizedHtmlString("lbl_Picture")</th>
+            <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_Action")</th>
+        </tr>
+        </thead>
+        <tbody>
+        @{ var i = 0;}
+        @foreach (var item  in Model)
+        {
+            i += 1;
+            <tr>
+                <td>@i</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td >
+                <td>
+                    @Html.DisplayFor(modelItem => item.Brand.BrandName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModelYear)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ListPrice) VND
+                </td>
+                <td>
+                    <div id="notification"></div>
+                    <button type="button" class="btn" data-toggle="modal-picture" data-target="#edit-picture" data-url="@Url.Action("EditProductImage", new {id = @item.Id})">
+                        <img src="/images/@Html.DisplayFor(modelItem => item.Picture)" width="30"/>
+                    </button>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id"><img src='~/image/edit.png' width='40'/></a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('@CommonLocalizer.GetLocalizedHtmlString("msg_QuestionDelete")')">
+                        <img src='~/image/delete.png'width='40'/>
+                    </a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

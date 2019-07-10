@@ -1,0 +1,76 @@
+﻿@model List<TaskTranning.ViewModels.StoreViewModel>
+@using TaskTranning.Resources
+@inject ResourcesServices<StoreResource> Localizer
+@inject ResourcesServices<CommonResource> CommonLocalizer
+@{
+    ViewBag.Title = Localizer.GetLocalizedHtmlString("lbl_TitleStore");
+    Layout = "_NavbarDataTable";
+}
+    <div class="sectionContent">
+        <h3 class="text-center">@Localizer.GetLocalizedHtmlString("lbl_TitleStore")</h3>
+        @if (ViewBag.Count == 0)
+        {
+            <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_NotData") - <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>
+        }
+        else
+        {
+            <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_Find"): 
+                @ViewBag.Count 
+                @(ViewBag.Count > 1 ? Localizer.GetLocalizedHtmlString("lbl_Stores") : Localizer.GetLocalizedHtmlString("lbl_Store"))
+                <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>  
+        }
+        <table id="table_id" class="table table-bordered">
+            <thead class="text-center">
+            <tr>
+                <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_NumericalOrder")</th>
+                <th>@Localizer.GetLocalizedHtmlString("lbl_StoreName")</th>
+                <th>@Localizer.GetLocalizedHtmlString("lbl_Phone")</th>
+                <th>@Localizer.GetLocalizedHtmlString("lbl_Email")</th>
+                <th>@Localizer.GetLocalizedHtmlString("lbl_Street")</th>
+                <th>@Localizer.GetLocalizedHtmlString("lbl_City")</th>
+                <th>@Localizer.GetLocalizedHtmlString("lbl_State")</th>
+                <th>@Localizer.GetLocalizedHtmlString("lbl_ZipCode")</th>
+                <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_Action")</th>
+            </tr>
+            </thead>
+            <tbody>
+            @{ var i = 0;}
+            @foreach (var item  in Model)
+            {
+                i += 1;
+                <tr>
+                    <td>@i</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StoreName)
+                    </td >
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Phone)
+
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Street)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.City)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.State)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ZipCode)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id"><img src='~/image/edit.png' width='40'/></a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('@CommonLocalizer.GetLocalizedHtmlString("msg_QuestionDelete")')">
+                            <img src='~/image/delete.png'width='40'/>
+                        </a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>

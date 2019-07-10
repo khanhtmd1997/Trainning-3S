@@ -1,0 +1,65 @@
+﻿@model TaskTranning.ViewModels.StoreViewModel
+@using TaskTranning.Resources
+@inject ResourcesServices<StoreResource> Localizer
+@inject ResourcesServices<CommonResource> CommonLocalizer
+
+@{
+    ViewBag.Title = Localizer.GetLocalizedHtmlString("lbl_TitleEditStore");
+    Layout = "_NavbarDataTable";
+}
+<div class="formbody">
+    <h1>@Localizer.GetLocalizedHtmlString("lbl_TitleEditStore")</h1>
+    <div id="form">
+        <form asp-action="Edit" method="post">
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_Email") * :</label>
+                <input asp-for="Email" type="text" class="form-control" placeholder=@Localizer.GetLocalizedHtmlString("lbl_PlaceholderEmail")/>
+                <span asp-validation-for="Email" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_StoreName") * :</label>
+                <input asp-for="StoreName" type="text" class="form-control" placeholder=@Localizer.GetLocalizedHtmlString("lbl_PlaceholderStoreName")/>
+                <span asp-validation-for="StoreName" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_Phone") * :</label>
+                <input asp-for="Phone" type="number" class="form-control" placeholder=@Localizer.GetLocalizedHtmlString("lbl_PlaceholderPhone")/>
+                <span asp-validation-for="Phone" class="form-text text-danger"></span>
+            </div>
+    
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_Street") * :</label>
+                <input asp-for="Street" type="text" class="form-control" placeholder=@Localizer.GetLocalizedHtmlString("lbl_PlaceholderStreet")/>
+                <span asp-validation-for="Street" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_City") * :</label>
+                <input asp-for="City" type="text" class="form-control" placeholder=@Localizer.GetLocalizedHtmlString("lbl_PlaceholderCity")/>
+                <span asp-validation-for="City" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_State"):</label>
+                <input asp-for="State" type="text" class="form-control"/>
+                <span asp-validation-for="State" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_ZipCode") * :</label>
+                <input asp-for="ZipCode" type="text" class="form-control" placeholder=@Localizer.GetLocalizedHtmlString("lbl_PlaceholderZipCode")/>
+                <span asp-validation-for="ZipCode" class="form-text text-danger"></span>
+            </div>
+    
+    
+            <div class="container">
+                <div class="row button">
+                    <div class="col text-center">
+                        <button type="submit" class="btn btn-primary">@CommonLocalizer.GetLocalizedHtmlString("btn_Edit")</button>
+                    </div>
+                </div>
+            </div>
+    
+        </form>
+        <div class="list-group link">
+            <a class="text-primary" asp-action="Index">@CommonLocalizer.GetLocalizedHtmlString("btn_Back")</a>
+        </div>
+    </div>
+</div>

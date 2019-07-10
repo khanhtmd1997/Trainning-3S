@@ -1,0 +1,231 @@
+﻿@using TaskTranning.Resources
+@inject ResourcesServices<LayoutManagementResource> Localizer
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TaskTranning</title>
+    <link rel="SHORTCUT ICON" href="~/image/logo-3si.png" type="image/x-icon">
+	<link rel="stylesheet" href="~/css/bootstrap.css"/>
+	<link rel="stylesheet" href="~/css/table.css"/>
+	<link rel="stylesheet" href="~/css/site.css" />
+	<link rel="stylesheet" href="~/css/dataTables.bootstrap4.min.css"/>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+	<link rel="stylesheet" href="~/css/font-awesome.min.css">
+	<link rel="stylesheet" href="~/css/themify-icons.css">
+	<link rel="stylesheet" href="~/css/metisMenu.css">
+	<link rel="stylesheet" href="~/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="~/css/slicknav.min.css">
+	<link rel="stylesheet" href="~/css/typography.css">
+	<link rel="stylesheet" href="~/css/default-css.css">
+	<link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+    <script type="text/javascript" src="~/js/jquery-3.3.1.js"></script>
+	<script src="~/js/modernizr-2.8.3.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+	<script src="~/js/jquery.dataTable.min.js"></script>
+	<script type="text/javascript" src="~/js/dataTables.bootstrap4.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+	<script src="~/js/jquery-2.2.4.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+    <script src="~/js/popper.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+    <script src="~/js/bootstrap.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+    <script type="4ea4f0edc22da678413c7bb0-text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-23581568-13');
+    </script>
+    <script src="~/js/rocket-loader.min.js" data-cf-settings="4ea4f0edc22da678413c7bb0-|49" defer=""></script>
+
+	<script>
+	    $(document).ready( function () {
+	        $('#table_id').DataTable();
+	    } );
+	</script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="nav navbar-nav navbar-right">
+        <span class="navbar-text">
+            @await Html.PartialAsync("_Language")
+        </span>
+    </div>
+</div>
+<div class="container">
+    <div id="language">
+        <div class="container-fluid">
+        </div>
+    </div>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="https://phuxuan.edu.vn/" target="_blank"><img src="~/image/phu-xuan.png" alt="Trường Đại học Phú Xuân" width="150"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarNavDropdown" class="navbar-collapse collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">@Localizer.GetLocalizedHtmlString("btn_Home") <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <div class="user-profile">
+                            <img class="avatar" src="/image/avatar.png" alt="avatar">
+                            @* <img class="avatar" src="~/images/@User.Claims.FirstOrDefault(c => c.Type == "Picture")?.Value" alt="avatar"> *@
+                            <h4 class="user-name dropdown-toggle" data-toggle="dropdown">@Localizer.GetLocalizedHtmlString("lbl_Hello"):
+                                @User.Claims.FirstOrDefault(c => c.Type == "FullName")?.Value
+                                <i class="fa fa-angle-down">
+
+                                </i>
+                            </h4>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" asp-action="Logout" asp-controller="Login">@Localizer.GetLocalizedHtmlString("btn_LogOut")</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</div>
+<div id="preloader">
+    <div class="loader"></div>
+</div>
+<div class="page-container">
+    <div class="sidebar-menu">
+        <div class="sidebar-header">
+            <div class="logo">
+                <a href="http://3si.vn/" target="_blank"><img src="~/image/logo-3si.png"/></a>
+            </div>
+        </div>
+        <div class="main-menu">
+            <div class="menu-inner">
+                <nav>
+                    <ul class="metismenu" id="menu">
+                        <li class="active">
+                            <a asp-controller="Home" asp-action="Index" aria-expanded="true"><i class="ti-layout-sidebar-left"></i>
+                                <span>
+                                    @Localizer.GetLocalizedHtmlString("btn_Home")
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" aria-expanded="true"><i class="ti-user"></i>
+                                <span>
+                                    @Localizer.GetLocalizedHtmlString("btn_Management")
+                                </span>
+                            </a>
+                            <ul>
+                                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Index">@Localizer.GetLocalizedHtmlString("btn_User")</a>
+                                <a class="nav-link" asp-area="" asp-controller="Store" asp-action="Index">@Localizer.GetLocalizedHtmlString("btn_Store")</a>
+                                <a class="nav-link" asp-area="" asp-controller="Category" asp-action="Index">@Localizer.GetLocalizedHtmlString("btn_Category")</a>
+                                <a class="nav-link" asp-area="" asp-controller="Product" asp-action="Index">@Localizer.GetLocalizedHtmlString("btn_Product")</a>
+                                <a class="nav-link" asp-area="" asp-controller="Brand" asp-action="Index">@Localizer.GetLocalizedHtmlString("btn_Brand")</a>
+                                <a class="nav-link" asp-area="" asp-controller="Stock" asp-action="Index">@Localizer.GetLocalizedHtmlString("btn_Stock")</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <!-- header area start -->
+        <div class="header-area">
+            <div class="row align-items-center">
+                <!-- nav and search button -->
+                <div class="col-md-6 col-sm-8 clearfix">
+                    <div class="nav-btn pull-left">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    @*                       <div class="search-box pull-left"> *@
+                    @* <form action="#"> *@
+                    @*     <input type="text" name="search" placeholder="Search..." required> *@
+                    @*     <i class="ti-search"></i> *@
+                    @* </form> *@
+                    @*                       </div> *@
+                </div>
+                <!-- profile info & task notification -->
+                <div class="col-md-6 col-sm-4 clearfix">
+
+                </div>
+            </div>
+        </div>
+        <div class="main-content-inner renderbody">
+            @if (TempData["succcessMessage"] != null)
+            {
+                <div class="alert alert-success messagebox">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <h5 class="message">@TempData["succcessMessage"]</h5>
+                </div> 
+            }
+            @if (ViewData["errorMessage"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible messagebox">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <h5 class="message">@ViewData["errorMessage"]</h5>
+                </div>
+            }
+            @if (TempData["importSuccess"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible messagebox">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <h5 class="message">@TempData["importSuccess"]</h5>
+                </div>
+            }
+            @if (TempData["importError"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible messagebox">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <h5 class="message">@TempData["importError"]</h5>
+                </div>
+            }
+            @RenderBody()
+        </div>
+    </div>
+</div>
+</body>
+<script src="~/js/jquery-2.2.4.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<!-- bootstrap 4 js -->
+<script src="~/js/popper.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<script src="~/js/bootstrap.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<script src="~/js/owl.carousel.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<script src="~/js/metisMenu.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<script src="~/js/jquery.slimscroll.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<script src="~/js/jquery.slicknav.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<!-- start chart js -->
+<script src="~/js/Chart.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<!-- start highcharts js -->
+<script src="~/js/highcharts.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<!-- start zingchart js -->
+<script src="~/js/zingchart.min.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<script type="4ea4f0edc22da678413c7bb0-text/javascript">
+    zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+    ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
+    </script>
+<!-- all line chart activation -->
+<script src="~/js/line-chart.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<!-- all pie chart -->
+<script src="~/js/pie-chart.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<!-- others plugins -->
+<script src="~/js/plugins.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<script src="~/js/scripts.js" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="4ea4f0edc22da678413c7bb0-text/javascript"></script>
+<script type="4ea4f0edc22da678413c7bb0-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-23581568-13');
+</script>
+<script src="~/js/rocket-loader.min.js" data-cf-settings="4ea4f0edc22da678413c7bb0-|49" defer=""></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+<script src="~/js/modalForm.js"></script>
+</html>

@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Builder
+@using Microsoft.Extensions.Options
+@using TaskTranning.Resources
+@inject ResourcesServices<LoginResource> Localizer
+@inject IOptions<RequestLocalizationOptions> LocOptions
+@{
+    var cultures = LocOptions.Value.SupportedUICultures.ToList();
+}
+<div>
+
+<p>@Localizer.GetLocalizedHtmlString("lbl_Language"):
+@foreach (var item in cultures)
+{
+    var itemImage = @item.Name + ".png";
+    <a style="text-decoration: none"
+        asp-area=""
+        asp-controller="Login"
+        asp-action="SetLanguage"
+        asp-route-culture="@item.Name"
+        asp-route-returnUrl="@Context.Request.Path">
+        <img src="~/image/@itemImage" width="40" height="30"/>
+        @* @item.Text *@
+    </a>
+}
+</p>
+</div>
+@* <div title="@Localizer["Request culture provider:"] @requestCulture?.Provider?.GetType().Name"> *@
+@*     <form id="selectLanguage" asp-controller="User"  *@
+@*           asp-action="SetLanguage" asp-route-returnUrl="@returnUrl"  *@
+@*           method="post" class="form-horizontal" role="form"> *@
+@*         $1$ <label asp-for="@requestCulture.RequestCulture.UICulture.Name">@Localizer["Language:"]</label> #1# *@
+@*         <select name="culture" onchange="this.form.submit();" asp-for="@requestCulture.RequestCulture.UICulture.Name" asp-items="cultureItems"> *@
+@*         </select> *@
+@*     </form> *@
+@* </div> *@

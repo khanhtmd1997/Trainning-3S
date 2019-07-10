@@ -1,0 +1,42 @@
+﻿@model StockViewModel
+@using TaskTranning.Resources
+@using TaskTranning.ViewModels
+@inject ResourcesServices<StockResource> Localizer
+@inject ResourcesServices<CommonResource> CommonLocalizer
+
+@{
+    ViewBag.Title = Localizer.GetLocalizedHtmlString("lbl_TitleCreateStock");
+    Layout = "_NavbarDataTable";
+}
+<div class="formbody">
+    <h1>@Localizer.GetLocalizedHtmlString("lbl_TitleCreateStock")</h1>
+    <div id="form">
+        <form asp-action="Create" method="post">
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_StoreName") * :</label>
+                <select asp-for="StoreId" asp-items="@ViewBag.StoreId" class="form-control"></select>
+                <span asp-validation-for="StoreId" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_ProductName") * :</label>
+                <select asp-for="ProductId" asp-items="@ViewBag.ProductId" class="form-control"></select>
+                <span asp-validation-for="ProductId" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_Quantity") * :</label>
+                <input asp-for="Quantity" type="text" class="form-control" placeholder=@Localizer.GetLocalizedHtmlString("lbl_PlaceholderQuantity")/>
+                <span asp-validation-for="Quantity" class="form-text text-danger"></span>
+            </div>
+            <div class="container">
+                <div class="row button">
+                    <div class="col text-center">
+                        <button type="submit" class="btn btn-primary">@CommonLocalizer.GetLocalizedHtmlString("btn_Create")</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="list-group link">
+            <a class="text-primary" asp-action="Index">@CommonLocalizer.GetLocalizedHtmlString("btn_Back")</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+﻿@using TaskTranning.Resources
+@inject ResourcesServices<CommonResource> Localizer
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - TaskTranning</title>
+    <language-nav view-context="ViewContext"></language-nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/error404.css"/>
+</head>
+<body>
+<div class="container-fluid" style="float: right">
+    <div class="nav navbar-nav navbar-right">
+        <span class="navbar-text">
+            @await Html.PartialAsync("_Language")
+        </span>
+    </div>
+</div>
+@RenderBody()
+</body>
+</html>

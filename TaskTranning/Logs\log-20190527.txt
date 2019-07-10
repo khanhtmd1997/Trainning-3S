@@ -1,0 +1,203 @@
+2019-05-27 13:43:21.288 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-05-27 13:43:21.449 +07:00 [Information] Executing endpoint '"TaskTranning.Controllers.HomeController.Index (TaskTranning)"'
+2019-05-27 13:43:21.461 +07:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "TaskTranning.Controllers.HomeController.Index (TaskTranning)"
+2019-05-27 13:43:21.478 +07:00 [Information] Authorization was successful.
+2019-05-27 13:43:21.493 +07:00 [Information] Executing action method "TaskTranning.Controllers.HomeController.Index (TaskTranning)" - Validation state: Valid
+2019-05-27 13:43:21.500 +07:00 [Information] Executed action method "TaskTranning.Controllers.HomeController.Index (TaskTranning)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.8935ms.
+2019-05-27 13:43:21.543 +07:00 [Information] Executing ViewResult, running view "Index".
+2019-05-27 13:43:21.844 +07:00 [Information] Executed ViewResult - view "Index" executed in 327.0254ms.
+2019-05-27 13:43:21.845 +07:00 [Information] Executed action "TaskTranning.Controllers.HomeController.Index (TaskTranning)" in 383.9188ms
+2019-05-27 13:43:21.846 +07:00 [Information] Executed endpoint '"TaskTranning.Controllers.HomeController.Index (TaskTranning)"'
+2019-05-27 13:43:21.859 +07:00 [Information] Request finished in 575.9681ms 200 text/html; charset=utf-8
+2019-05-27 13:43:21.892 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.css  
+2019-05-27 13:43:21.997 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css  
+2019-05-27 13:43:22.004 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/font-awesome.min.css  
+2019-05-27 13:43:22.013 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/themify-icons.css  
+2019-05-27 13:43:22.018 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/metisMenu.css  
+2019-05-27 13:43:22.021 +07:00 [Information] Sending file. Request path: '"/css/font-awesome.min.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/font-awesome.min.css"'
+2019-05-27 13:43:22.021 +07:00 [Information] Sending file. Request path: '"/css/metisMenu.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/metisMenu.css"'
+2019-05-27 13:43:22.021 +07:00 [Information] Sending file. Request path: '"/css/themify-icons.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/themify-icons.css"'
+2019-05-27 13:43:22.030 +07:00 [Information] Request finished in 17.1168ms 200 text/css
+2019-05-27 13:43:22.030 +07:00 [Information] Request finished in 26.6276ms 200 text/css
+2019-05-27 13:43:22.033 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/slicknav.min.css  
+2019-05-27 13:43:22.032 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/typography.css  
+2019-05-27 13:43:22.030 +07:00 [Information] Request finished in 11.7966ms 200 text/css
+2019-05-27 13:43:22.034 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/owl.carousel.min.css  
+2019-05-27 13:43:22.033 +07:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/lib/bootstrap/dist/css/bootstrap.css"'
+2019-05-27 13:43:22.035 +07:00 [Information] Sending file. Request path: '"/css/typography.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/typography.css"'
+2019-05-27 13:43:22.035 +07:00 [Information] Request finished in 38.2114ms 200 text/css
+2019-05-27 13:43:22.035 +07:00 [Information] Sending file. Request path: '"/css/owl.carousel.min.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/owl.carousel.min.css"'
+2019-05-27 13:43:22.036 +07:00 [Information] Request finished in 2.3832ms 200 text/css
+2019-05-27 13:43:22.036 +07:00 [Information] Request finished in 3.3083ms 200 text/css
+2019-05-27 13:43:22.037 +07:00 [Information] Sending file. Request path: '"/css/bootstrap.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/bootstrap.css"'
+2019-05-27 13:43:22.038 +07:00 [Information] Request finished in 146.6661ms 200 text/css
+2019-05-27 13:43:22.035 +07:00 [Information] Sending file. Request path: '"/css/slicknav.min.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/slicknav.min.css"'
+2019-05-27 13:43:22.038 +07:00 [Information] Request finished in 5.5776ms 200 text/css
+2019-05-27 13:43:22.041 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css  
+2019-05-27 13:43:22.041 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/default-css.css  
+2019-05-27 13:43:22.041 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/responsive.css  
+2019-05-27 13:43:22.042 +07:00 [Information] Sending file. Request path: '"/css/responsive.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/responsive.css"'
+2019-05-27 13:43:22.042 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/table.css  
+2019-05-27 13:43:22.046 +07:00 [Information] Request finished in 4.3449ms 200 text/css
+2019-05-27 13:43:22.047 +07:00 [Information] Sending file. Request path: '"/css/table.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/table.css"'
+2019-05-27 13:43:22.047 +07:00 [Information] Request finished in 4.9016ms 200 text/css
+2019-05-27 13:43:22.047 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/site.css  
+2019-05-27 13:43:22.048 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/dataTables.bootstrap4.min.css  
+2019-05-27 13:43:22.044 +07:00 [Information] Sending file. Request path: '"/css/default-css.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/default-css.css"'
+2019-05-27 13:43:22.049 +07:00 [Information] Request finished in 7.8978ms 200 text/css
+2019-05-27 13:43:22.045 +07:00 [Information] Sending file. Request path: '"/css/style.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/style.css"'
+2019-05-27 13:43:22.049 +07:00 [Information] Request finished in 8.0924ms 200 text/css
+2019-05-27 13:43:22.050 +07:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/site.css"'
+2019-05-27 13:43:22.050 +07:00 [Information] Sending file. Request path: '"/css/dataTables.bootstrap4.min.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/dataTables.bootstrap4.min.css"'
+2019-05-27 13:43:22.050 +07:00 [Information] Request finished in 2.926ms 200 text/css
+2019-05-27 13:43:22.050 +07:00 [Information] Request finished in 2.3646ms 200 text/css
+2019-05-27 13:43:22.056 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css  
+2019-05-27 13:43:22.056 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/jquery-3.3.1.js  
+2019-05-27 13:43:22.059 +07:00 [Information] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/bootstrap.min.css"'
+2019-05-27 13:43:22.061 +07:00 [Information] Request finished in 5.6607ms 200 text/css
+2019-05-27 13:43:22.061 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js  
+2019-05-27 13:43:22.061 +07:00 [Information] Sending file. Request path: '"/js/jquery-3.3.1.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/jquery-3.3.1.js"'
+2019-05-27 13:43:22.063 +07:00 [Information] Request finished in 6.6287ms 200 application/javascript
+2019-05-27 13:43:22.065 +07:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"'
+2019-05-27 13:43:22.066 +07:00 [Information] Request finished in 5.0493ms 200 application/javascript
+2019-05-27 13:43:22.067 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/jquery.dataTable.min.js  
+2019-05-27 13:43:22.067 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/dataTables.bootstrap4.min.js  
+2019-05-27 13:43:22.069 +07:00 [Information] Sending file. Request path: '"/js/dataTables.bootstrap4.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/dataTables.bootstrap4.min.js"'
+2019-05-27 13:43:22.069 +07:00 [Information] Request finished in 2.1829ms 200 application/javascript
+2019-05-27 13:43:22.069 +07:00 [Information] Sending file. Request path: '"/js/jquery.dataTable.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/jquery.dataTable.min.js"'
+2019-05-27 13:43:22.070 +07:00 [Information] Request finished in 2.9734ms 200 application/javascript
+2019-05-27 13:43:22.079 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/rocket-loader.min.js  
+2019-05-27 13:43:22.080 +07:00 [Information] Sending file. Request path: '"/js/rocket-loader.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/rocket-loader.min.js"'
+2019-05-27 13:43:22.080 +07:00 [Information] Request finished in 1.6328ms 200 application/javascript
+2019-05-27 13:43:22.087 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/en-US.png  
+2019-05-27 13:43:22.089 +07:00 [Information] Sending file. Request path: '"/image/en-US.png"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/en-US.png"'
+2019-05-27 13:43:22.089 +07:00 [Information] Request finished in 1.9634ms 200 image/png
+2019-05-27 13:43:22.099 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js  
+2019-05-27 13:43:22.101 +07:00 [Information] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"'
+2019-05-27 13:43:22.101 +07:00 [Information] Request finished in 1.8346ms 200 application/javascript
+2019-05-27 13:43:22.103 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.min.js  
+2019-05-27 13:43:22.105 +07:00 [Information] Sending file. Request path: '"/lib/jquery-validation/dist/jquery.validate.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"'
+2019-05-27 13:43:22.107 +07:00 [Information] Request finished in 1.5926ms 200 application/javascript
+2019-05-27 13:43:22.137 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/modalForm.js  
+2019-05-27 13:43:22.137 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/vi-VN.png  
+2019-05-27 13:43:22.138 +07:00 [Information] Sending file. Request path: '"/image/vi-VN.png"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/vi-VN.png"'
+2019-05-27 13:43:22.138 +07:00 [Information] Sending file. Request path: '"/js/modalForm.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/modalForm.js"'
+2019-05-27 13:43:22.139 +07:00 [Information] Request finished in 1.7428ms 200 image/png
+2019-05-27 13:43:22.139 +07:00 [Information] Request finished in 2.3016ms 200 application/javascript
+2019-05-27 13:43:22.154 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/images/logo.jpg  
+2019-05-27 13:43:22.154 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/phu-xuan.png  
+2019-05-27 13:43:22.156 +07:00 [Information] Sending file. Request path: '"/image/phu-xuan.png"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/phu-xuan.png"'
+2019-05-27 13:43:22.156 +07:00 [Information] Request finished in 1.8046ms 200 image/png
+2019-05-27 13:43:22.167 +07:00 [Information] Sending file. Request path: '"/images/logo.jpg"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/images/logo.jpg"'
+2019-05-27 13:43:22.167 +07:00 [Information] Request finished in 12.5276ms 200 image/jpeg
+2019-05-27 13:43:22.178 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/logo-3si.png  
+2019-05-27 13:43:22.180 +07:00 [Information] Sending file. Request path: '"/image/logo-3si.png"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/logo-3si.png"'
+2019-05-27 13:43:22.181 +07:00 [Information] Request finished in 2.4861ms 200 image/png
+2019-05-27 13:43:22.190 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/logo.jpg  
+2019-05-27 13:43:22.202 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/peole.png  
+2019-05-27 13:43:22.205 +07:00 [Information] Sending file. Request path: '"/image/logo.jpg"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/logo.jpg"'
+2019-05-27 13:43:22.205 +07:00 [Information] Sending file. Request path: '"/image/peole.png"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/peole.png"'
+2019-05-27 13:43:22.205 +07:00 [Information] Request finished in 15.2317ms 200 image/jpeg
+2019-05-27 13:43:22.205 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/cake.png  
+2019-05-27 13:43:22.206 +07:00 [Information] Request finished in 3.6873ms 200 image/png
+2019-05-27 13:43:22.207 +07:00 [Information] Sending file. Request path: '"/image/cake.png"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/cake.png"'
+2019-05-27 13:43:22.207 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/address.png  
+2019-05-27 13:43:22.207 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/phone.png  
+2019-05-27 13:43:22.208 +07:00 [Information] Sending file. Request path: '"/image/address.png"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/address.png"'
+2019-05-27 13:43:22.209 +07:00 [Information] Request finished in 1.5667ms 200 image/png
+2019-05-27 13:43:22.209 +07:00 [Information] Sending file. Request path: '"/image/phone.png"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/phone.png"'
+2019-05-27 13:43:22.209 +07:00 [Information] Request finished in 1.3884ms 200 image/png
+2019-05-27 13:43:22.210 +07:00 [Information] Request finished in 2.0337ms 200 image/png
+2019-05-27 13:43:22.218 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/facebook.png  
+2019-05-27 13:43:22.218 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/email.png  
+2019-05-27 13:43:22.219 +07:00 [Information] Sending file. Request path: '"/image/facebook.png"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/facebook.png"'
+2019-05-27 13:43:22.219 +07:00 [Information] Sending file. Request path: '"/image/email.png"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/email.png"'
+2019-05-27 13:43:22.219 +07:00 [Information] Request finished in 1.5597ms 200 image/png
+2019-05-27 13:43:22.220 +07:00 [Information] Request finished in 1.6427ms 200 image/png
+2019-05-27 13:43:22.362 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/fonts/fontawesome-webfont.woff2?v=4.6.3  
+2019-05-27 13:43:22.370 +07:00 [Information] Sending file. Request path: '"/fonts/fontawesome-webfont.woff2"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/fonts/fontawesome-webfont.woff2"'
+2019-05-27 13:43:22.370 +07:00 [Information] Request finished in 8.8424ms 200 font/woff2
+2019-05-27 13:43:22.374 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/fonts/themify.woff?-fvbane  
+2019-05-27 13:43:22.376 +07:00 [Information] Sending file. Request path: '"/fonts/themify.woff"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/fonts/themify.woff"'
+2019-05-27 13:43:22.377 +07:00 [Information] Request finished in 2.8711ms 200 application/font-woff
+2019-05-27 13:43:22.735 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/scripts.js  
+2019-05-27 13:43:22.738 +07:00 [Information] Sending file. Request path: '"/js/scripts.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/scripts.js"'
+2019-05-27 13:43:22.738 +07:00 [Information] Request finished in 3.3485ms 200 application/javascript
+2019-05-27 13:43:22.748 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/plugins.js  
+2019-05-27 13:43:22.750 +07:00 [Information] Sending file. Request path: '"/js/plugins.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/plugins.js"'
+2019-05-27 13:43:22.750 +07:00 [Information] Request finished in 1.5881ms 200 application/javascript
+2019-05-27 13:43:22.757 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/line-chart.js  
+2019-05-27 13:43:22.759 +07:00 [Information] Sending file. Request path: '"/js/line-chart.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/line-chart.js"'
+2019-05-27 13:43:22.760 +07:00 [Information] Request finished in 2.6855ms 200 application/javascript
+2019-05-27 13:43:22.759 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/highcharts.js  
+2019-05-27 13:43:22.761 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/zingchart.min.js  
+2019-05-27 13:43:22.766 +07:00 [Information] Sending file. Request path: '"/js/highcharts.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/highcharts.js"'
+2019-05-27 13:43:22.767 +07:00 [Information] Request finished in 7.1979ms 200 application/javascript
+2019-05-27 13:43:22.769 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/pie-chart.js  
+2019-05-27 13:43:22.773 +07:00 [Information] Sending file. Request path: '"/js/pie-chart.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/pie-chart.js"'
+2019-05-27 13:43:22.774 +07:00 [Information] Request finished in 4.8292ms 200 application/javascript
+2019-05-27 13:43:22.777 +07:00 [Information] Sending file. Request path: '"/js/zingchart.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/zingchart.min.js"'
+2019-05-27 13:43:22.777 +07:00 [Information] Request finished in 16.259ms 200 application/javascript
+2019-05-27 13:43:22.785 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/Chart.min.js  
+2019-05-27 13:43:22.788 +07:00 [Information] Sending file. Request path: '"/js/Chart.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/Chart.min.js"'
+2019-05-27 13:43:22.790 +07:00 [Information] Request finished in 4.0498ms 200 application/javascript
+2019-05-27 13:43:22.791 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/jquery.slicknav.min.js  
+2019-05-27 13:43:22.793 +07:00 [Information] Sending file. Request path: '"/js/jquery.slicknav.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/jquery.slicknav.min.js"'
+2019-05-27 13:43:22.794 +07:00 [Information] Request finished in 3.3463ms 200 application/javascript
+2019-05-27 13:43:22.799 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/jquery.slimscroll.min.js  
+2019-05-27 13:43:22.800 +07:00 [Information] Sending file. Request path: '"/js/jquery.slimscroll.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/jquery.slimscroll.min.js"'
+2019-05-27 13:43:22.800 +07:00 [Information] Request finished in 1.1963ms 200 application/javascript
+2019-05-27 13:43:22.804 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/metisMenu.min.js  
+2019-05-27 13:43:22.805 +07:00 [Information] Sending file. Request path: '"/js/metisMenu.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/metisMenu.min.js"'
+2019-05-27 13:43:22.806 +07:00 [Information] Request finished in 1.5711ms 200 application/javascript
+2019-05-27 13:43:22.814 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/bootstrap.min.js  
+2019-05-27 13:43:22.814 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/popper.min.js  
+2019-05-27 13:43:22.816 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/modernizr-2.8.3.min.js  
+2019-05-27 13:43:22.816 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/jquery-2.2.4.min.js  
+2019-05-27 13:43:22.817 +07:00 [Information] Sending file. Request path: '"/js/popper.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/popper.min.js"'
+2019-05-27 13:43:22.818 +07:00 [Information] Request finished in 3.4827ms 200 application/javascript
+2019-05-27 13:43:22.819 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/js/owl.carousel.min.js  
+2019-05-27 13:43:22.819 +07:00 [Information] Sending file. Request path: '"/js/modernizr-2.8.3.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/modernizr-2.8.3.min.js"'
+2019-05-27 13:43:22.820 +07:00 [Information] Request finished in 3.9171ms 200 application/javascript
+2019-05-27 13:43:22.821 +07:00 [Information] Sending file. Request path: '"/js/bootstrap.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/bootstrap.min.js"'
+2019-05-27 13:43:22.821 +07:00 [Information] Request finished in 7.0833ms 200 application/javascript
+2019-05-27 13:43:22.823 +07:00 [Information] Sending file. Request path: '"/js/owl.carousel.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/owl.carousel.min.js"'
+2019-05-27 13:43:22.824 +07:00 [Information] Request finished in 4.5188ms 200 application/javascript
+2019-05-27 13:43:22.828 +07:00 [Information] Sending file. Request path: '"/js/jquery-2.2.4.min.js"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/js/jquery-2.2.4.min.js"'
+2019-05-27 13:43:22.828 +07:00 [Information] Request finished in 12.1041ms 200 application/javascript
+2019-05-27 13:43:23.026 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/logo-3si.png  
+2019-05-27 13:43:23.028 +07:00 [Information] Sending file. Request path: '"/image/logo-3si.png"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/logo-3si.png"'
+2019-05-27 13:43:23.029 +07:00 [Information] Request finished in 2.9986ms 200 image/png
+2019-05-27 13:43:28.532 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/Value  
+2019-05-27 13:43:28.541 +07:00 [Information] Executing endpoint '"TaskTranning.Controllers.ErrorController.Error404 (TaskTranning)"'
+2019-05-27 13:43:28.544 +07:00 [Information] Route matched with "{action = \"Error404\", controller = \"Error\"}". Executing action "TaskTranning.Controllers.ErrorController.Error404 (TaskTranning)"
+2019-05-27 13:43:28.548 +07:00 [Information] Executing action method "TaskTranning.Controllers.ErrorController.Error404 (TaskTranning)" - Validation state: Valid
+2019-05-27 13:43:28.550 +07:00 [Information] Executed action method "TaskTranning.Controllers.ErrorController.Error404 (TaskTranning)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.9271ms.
+2019-05-27 13:43:28.560 +07:00 [Information] Executing ViewResult, running view "Error404".
+2019-05-27 13:43:28.662 +07:00 [Information] Executed ViewResult - view "Error404" executed in 111.4445ms.
+2019-05-27 13:43:28.663 +07:00 [Information] Executed action "TaskTranning.Controllers.ErrorController.Error404 (TaskTranning)" in 119.0434ms
+2019-05-27 13:43:28.664 +07:00 [Information] Executed endpoint '"TaskTranning.Controllers.ErrorController.Error404 (TaskTranning)"'
+2019-05-27 13:43:28.664 +07:00 [Information] Request finished in 132.468ms 404 text/html; charset=utf-8
+2019-05-27 13:43:28.681 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/css/error404.css  
+2019-05-27 13:43:28.684 +07:00 [Information] Sending file. Request path: '"/css/error404.css"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/css/error404.css"'
+2019-05-27 13:43:28.685 +07:00 [Information] Request finished in 3.7463ms 200 text/css
+2019-05-27 13:43:28.689 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/image/logo-3si.png  
+2019-05-27 13:43:28.690 +07:00 [Information] Sending file. Request path: '"/image/logo-3si.png"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/image/logo-3si.png"'
+2019-05-27 13:43:28.691 +07:00 [Information] Request finished in 1.3173ms 200 image/png
+2019-05-27 13:46:46.308 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-05-27 13:46:46.553 +07:00 [Information] Executing endpoint '"TaskTranning.Controllers.HomeController.Index (TaskTranning)"'
+2019-05-27 13:46:46.575 +07:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "TaskTranning.Controllers.HomeController.Index (TaskTranning)"
+2019-05-27 13:46:46.598 +07:00 [Information] Authorization was successful.
+2019-05-27 13:46:46.616 +07:00 [Information] Executing action method "TaskTranning.Controllers.HomeController.Index (TaskTranning)" - Validation state: Valid
+2019-05-27 13:46:46.617 +07:00 [Information] Could break here :(
+2019-05-27 13:46:46.655 +07:00 [Error] It broke :(
+System.Exception: bohhhh very bad error
+   at TaskTranning.Controllers.HomeController.Index() in /home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/Controllers/HomeController.cs:line 31
+2019-05-27 13:46:46.663 +07:00 [Information] Executed action method "TaskTranning.Controllers.HomeController.Index (TaskTranning)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 39.7069ms.
+2019-05-27 13:46:46.679 +07:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-05-27 13:46:46.770 +07:00 [Information] Executed action "TaskTranning.Controllers.HomeController.Index (TaskTranning)" in 188.3855ms
+2019-05-27 13:46:46.770 +07:00 [Information] Executed endpoint '"TaskTranning.Controllers.HomeController.Index (TaskTranning)"'
+2019-05-27 13:46:46.784 +07:00 [Information] Request finished in 487.9996ms 200 application/json; charset=utf-8
+2019-05-27 13:46:46.891 +07:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico  
+2019-05-27 13:46:46.949 +07:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"/home/local/3SI/khanh.nv/Desktop/3SGit/3S_Trainning/TaskTranning/wwwroot/favicon.ico"'
+2019-05-27 13:46:46.957 +07:00 [Information] Request finished in 67.3679ms 200 image/x-icon

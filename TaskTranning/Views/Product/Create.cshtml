@@ -1,0 +1,56 @@
+﻿@model ProductViewModel
+@using TaskTranning.Resources
+@using TaskTranning.ViewModels
+@inject ResourcesServices<ProductResource> Localizer
+@inject ResourcesServices<CommonResource> CommonLocalizer
+@{
+    ViewBag.Title = Localizer.GetLocalizedHtmlString("lbl_TitleCreateProduct");
+    Layout = "_NavbarDataTable";
+}
+<div class="formbody">
+    <h1>@Localizer.GetLocalizedHtmlString("lbl_TitleCreateProduct")</h1>
+    <div id="form">
+        <form asp-action="Create" enctype="multipart/form-data" method="post">
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_ProductName")*:</label>
+                <input asp-for="ProductName" type="text" class="form-control" placeholder=@Localizer.GetLocalizedHtmlString("lbl_PlaceholderPoductName")/>
+                <span asp-validation-for="ProductName" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_BrandName")*:</label>
+                <select asp-for="BrandId" asp-items="@ViewBag.BrandId" class="form-control"></select>
+                <span asp-validation-for="BrandId" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_CategoryName")*:</label>
+                <select asp-for="CategoryId" asp-items="@ViewBag.CategoryId" class="form-control"></select>
+                <span asp-validation-for="CategoryId" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_Picture") * :</label>
+                <input type="file" asp-for="PictureFile" class="form-control">
+                <span asp-validation-for="PictureFile" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_ModelYear")*:</label>
+                <input asp-for="ModelYear" type="text" class="form-control" placeholder=@Localizer.GetLocalizedHtmlString("lbl_PlaceholderModelYear")>
+                <span asp-validation-for="ModelYear" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_ListPrice")*: <span>@Localizer.GetLocalizedHtmlString("lbl_Example"): 39,XXX</span></label>
+                <input asp-for="ListPrice" type="text" class="form-control" placeholder=@Localizer.GetLocalizedHtmlString("lbl_PlaceholderListPrice")>
+                <span asp-validation-for="ListPrice" class="form-text text-danger"></span>
+            </div>
+            <div class="container">
+                <div class="row button">
+                    <div class="col text-center">
+                        <button type="submit" class="btn btn-primary">@CommonLocalizer.GetLocalizedHtmlString("btn_Create")</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="list-group link">
+            <a class="text-primary" asp-action="Index">@CommonLocalizer.GetLocalizedHtmlString("btn_Back")</a>
+        </div>
+    </div>
+</div>

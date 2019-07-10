@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="btn_Home">
+        <value>TRANG CHỦ</value>
+    </data>
+    <data name="lbl_Hello">
+        <value>Xin Chào</value>
+    </data>
+    <data name="btn_LogOut">
+        <value>Đăng Xuất</value>
+    </data>
+    <data name="btn_Management">
+        <value>QUẢN LÝ</value>
+    </data>
+    <data name="btn_User">
+        <value>NGƯỜI DÙNG</value>
+    </data>
+    <data name="btn_Store">
+        <value>CỬA HÀNG</value>
+    </data>
+    <data name="btn_Customer">
+        <value>KHÁCH HÀNG</value>
+    </data>
+    <data name="btn_Category">
+        <value>DANH MỤC</value>
+    </data>
+    <data name="btn_Product">
+        <value>SẢN PHẨM</value>
+    </data>
+    <data name="btn_Brand">
+        <value>NHÃN HIỆU</value>
+    </data>
+    <data name="btn_Stock">
+        <value>CỔ PHẦN</value>
+    </data>
+</root>

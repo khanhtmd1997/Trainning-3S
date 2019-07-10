@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="lbl_TitleStore">
+        <value>Trang Cửa Hàng</value>
+    </data>
+    <data name="lbl_Stores">
+        <value>Cửa Hàng</value>
+    </data>
+    <data name="lbl_StoreName">
+        <value>Tên Cửa Hàng</value>
+    </data>
+    <data name="lbl_Phone">
+        <value>Số Điện Thoại</value>
+    </data>
+    <data name="lbl_Email">
+        <value>Email</value>
+    </data>
+    <data name="lbl_Street">
+        <value>Đường</value>
+    </data>
+    <data name="lbl_City">
+        <value>Thành Phố</value>
+    </data>
+    <data name="lbl_State">
+        <value>Bang</value>
+    </data>
+    <data name="lbl_ZipCode">
+        <value>Mã Bưu Chính</value>
+    </data>
+    <data name="lbl_TitleEditStore">
+        <value>Trang Sửa Cửa Hàng</value>
+    </data>
+    <data name="lbl_PlaceholderEmail">
+        <value>Vui lòng nhập Email</value>
+    </data>
+    <data name="lbl_PlaceholderStoreName">
+        <value>Vui lòng nhập Tên Cửa Hàng</value>
+    </data>
+    <data name="lbl_PlaceholderPhone">
+        <value>Vui lòng nhập Số Điện Thoại</value>
+    </data>
+    <data name="lbl_PlaceholderStreet">
+        <value>Vui lòng nhập Đường</value>
+    </data>
+    <data name="lbl_PlaceholderCity">
+        <value>Vui lòng nhập Thành Phố</value>
+    </data>
+    <data name="lbl_PlaceholderZipCode">
+        <value>Vui lòng nhập Mã Bưu Chính</value>
+    </data>
+    <data name="lbl_TitleCreateStore">
+        <value>Trang Tạo Cửa Hàng</value>
+    </data>
+    <data name="msg_NewStoreSuccess">
+        <value>Thêm Mới Cửa Hàng Thành Công</value>
+    </data>
+    <data name="err_NewStore">
+        <value>Thêm Mới Cửa Hàng Thất Bại</value>
+    </data>
+    <data name="msg_EditStoreSuccess">
+        <value>Sửa Cửa Hàng Thành Công</value>
+    </data>
+    <data name="err_EditStore">
+        <value>Sửa Cửa Hàng Thất Bại</value>
+    </data>
+    <data name="msg_DeleteStoreSuccess">
+        <value>Xóa Cửa Hàng Thành Công</value>
+    </data>
+    <data name="err_DeleteStore">
+        <value>Xóa Cửa Hàng Thất Bại</value>
+    </data>
+    <data name="msg_AlreadyExists">
+        <value>{0} đã tồn tại</value>
+    </data>
+    <data name="msg_StoreNameNotNull">
+        <value>Tên Cửa Hàng không được bỏ trống</value>
+    </data>
+    <data name="msg_PhoneNotNull">
+        <value>Số Điện Thoại không được bỏ trống</value>
+    </data>
+    <data name="msg_EmailNotNull">
+        <value>Email không được bỏ trống</value>
+    </data>
+    <data name="msg_FormatEmail">
+        <value>Email phải được định dạng theo Email</value>
+    </data>
+    <data name="msg_StreetNotNull">
+        <value>Đường không được bỏ trống</value>
+    </data>
+    <data name="msg_CityNotNull">
+        <value>Thành Phố không được bỏ trống</value>
+    </data>
+    <data name="msg_ZipCodeNotNull">
+        <value>Mã Bưu Chính không được bỏ trống</value>
+    </data>
+    <data name="lbl_Store">
+        <value>Cửa Hàng</value>
+    </data>
+</root>

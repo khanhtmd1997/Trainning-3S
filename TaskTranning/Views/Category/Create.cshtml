@@ -1,0 +1,31 @@
+﻿@model CategoryViewModel
+@using TaskTranning.Resources
+@using TaskTranning.ViewModels
+@inject ResourcesServices<CategoryResource> Localizer
+@inject ResourcesServices<CommonResource> CommonLocalizer
+@{
+    ViewBag.Title = Localizer.GetLocalizedHtmlString("lbl_TitleCreateCateogory");
+    Layout = "_NavbarDataTable";
+}
+<div class="formbody">
+    <h1>@Localizer.GetLocalizedHtmlString("lbl_TitleCreateCateogory")</h1>
+    <div id="form">
+        <form asp-action="Create" method="post">
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_CategoryName") * :</label>
+                <input asp-for="CategoryName" type="text" class="form-control" placeholder=@Localizer.GetLocalizedHtmlString("lbl_PlaceholderCategoryName")/>
+                <span asp-validation-for="CategoryName" class="form-text text-danger"></span>
+            </div>
+            <div class="container">
+                <div class="row button">
+                    <div class="col text-center">
+                        <button type="submit" class="btn btn-primary">@CommonLocalizer.GetLocalizedHtmlString("btn_Create")</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="list-group link">
+            <a class="text-primary" asp-action="Index">@CommonLocalizer.GetLocalizedHtmlString("btn_Back")</a>
+        </div>
+    </div>
+</div>

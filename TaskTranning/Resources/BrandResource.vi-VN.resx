@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="lbl_TitleBrand">
+        <value>Trang Nhãn Hiệu</value>
+    </data>
+    <data name="lbl_Brands">
+        <value>Nhãn Hiệu</value>
+    </data>
+    <data name="lbl_BrandName">
+        <value>Tên Nhãn Hiệu</value>
+    </data>
+    <data name="lbl_TitleEditBrand">
+        <value>Trang Sửa Nhãn Hiệu</value>
+    </data>
+    <data name="lbl_PlaceholderBrandName">
+        <value>Vui lòng nhập Tên Nhãn Hiệu</value>
+    </data>
+    <data name="lbl_TitleCreateBrand">
+        <value>Trang Tạo Nhãn Hiệu</value>
+    </data>
+    <data name="msg_NewBrandSuccess">
+        <value>Thêm Mới Nhãn Hiệu Thành Công</value>
+    </data>
+    <data name="err_NewBrand">
+        <value>Thêm Mới Nhãn Hiệu Thất Bại</value>
+    </data>
+    <data name="msg_EditBrandSuccess">
+        <value>Sửa Nhãn Hiệu Thành Công</value>
+    </data>
+    <data name="err_EditBrand">
+        <value>Sửa Nhãn Hiệu Thất Bại</value>
+    </data>
+    <data name="msg_DeleteBrandSuccess">
+        <value>Xóa Nhãn Hiệu Thành Công</value>
+    </data>
+    <data name="err_DeleteBrand">
+        <value>Xóa Nhãn Hiệu Thất Bại</value>
+    </data>
+    <data name="msg_AlreadyExists">
+        <value>{0} đã tồn tại</value>
+    </data>
+    <data name="msg_BrandNameNotNull">
+        <value>Tên Nhãn Hiệu không được bỏ trống</value>
+    </data>
+    <data name="lbl_Brand">
+        <value>Nhãn Hiệu</value>
+    </data>
+    <data name="err_Import">
+        <value>Nhập tập tin thất bại</value>
+    </data>
+    <data name="msg_ImportSuccess">
+        <value>Nhập tập tin thành công</value>
+    </data>
+    <data name="msg_EmportSuccess">
+        <value>Xuất tập tin thành công</value>
+    </data>
+</root>

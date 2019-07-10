@@ -1,0 +1,31 @@
+﻿@model BrandViewModel
+@using TaskTranning.Resources
+@using TaskTranning.ViewModels
+@inject ResourcesServices<BrandResource> Localizer
+@inject ResourcesServices<CommonResource> CommonLocalizer
+@{
+    ViewBag.Title = Localizer.GetLocalizedHtmlString("lbl_TitleEditBrand");
+    Layout = "_NavbarDataTable";
+}
+<div class="formbody">
+    <h1>@Localizer.GetLocalizedHtmlString("lbl_TitleEditBrand")</h1>
+    <div id="form">
+        <form asp-action="Edit" method="post">
+            <div class="form-group">
+                <label>@Localizer.GetLocalizedHtmlString("lbl_BrandName") * :</label>
+                <input asp-for="BrandName" type="text" class="form-control" placeholder=@Localizer.GetLocalizedHtmlString("lbl_PlaceholderBrandName")/>
+                <span asp-validation-for="BrandName" class="form-text text-danger"></span>
+            </div>
+            <div class="container">
+                <div class="row button">
+                    <div class="col text-center">
+                        <button type="submit" class="btn btn-primary">@CommonLocalizer.GetLocalizedHtmlString("btn_Edit")</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="list-group link">
+            <a class="text-primary" asp-action="Index">@CommonLocalizer.GetLocalizedHtmlString("btn_Back")</a>
+        </div>
+    </div>
+</div>

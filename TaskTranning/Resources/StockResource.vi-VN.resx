@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="lbl_TitleStock">
+        <value>Trang Cổ Phần</value>
+    </data>
+    <data name="lbl_Stocks">
+        <value>Cổ Phần</value>
+    </data>
+    <data name="lbl_StoreName">
+        <value>Tên Cửa Hàng</value>
+    </data>
+    <data name="lbl_ProductName">
+        <value>Tên Sản Phẩm</value>
+    </data>
+    <data name="lbl_Quantity">
+        <value>Số Lượng</value>
+    </data>
+    <data name="lbl_TitleEditStock">
+        <value>Trang Sửa Cổ Phần</value>
+    </data>
+    <data name="lbl_PlaceholderQuantity">
+        <value>Vui lòng nhập Số Lượng</value>
+    </data>
+    <data name="lbl_TitleCreateStock">
+        <value>Trang Tạo Cổ Phần</value>
+    </data>
+    <data name="msg_NewStockSuccess">
+        <value>Thêm Cổ Phần Thành Công</value>
+    </data>
+    <data name="err_NewStock">
+        <value>Thêm Cổ Phần Thất Bại</value>
+    </data>
+    <data name="msg_EditStockSuccess">
+        <value>Sửa Cổ Phần Thành Công</value>
+    </data>
+    <data name="err_EditStock">
+        <value>Sửa Cổ Phần Thất Bại</value>
+    </data>
+    <data name="msg_DeleteStockSuccess">
+        <value>Xóa Cổ Phần Thành Công</value>
+    </data>
+    <data name="err_DeleteStock">
+        <value>Xóa Cổ Phần Thất Bại</value>
+    </data>
+    <data name="msg_QuantityNotNull">
+        <value>Số Lượng không được bỏ trống</value>
+    </data>
+    <data name="msg_GreaterThan0">
+        <value>Số Lượng phải được nhập vào lớn hơn 0</value>
+    </data>
+    <data name="lbl_Stock">
+        <value>Cổ Phần</value>
+    </data>
+</root>

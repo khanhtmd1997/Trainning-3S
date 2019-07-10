@@ -1,0 +1,62 @@
+﻿@model List<BrandViewModel>
+@using TaskTranning.Resources
+@using TaskTranning.ViewModels
+@inject ResourcesServices<BrandResource> Localizer
+@inject ResourcesServices<CommonResource> CommonLocalizer
+@{
+    ViewBag.Title = Localizer.GetLocalizedHtmlString("lbl_TitleBrand");
+    Layout = "_NavbarDataTable";
+}
+    <div class="sectionContent">
+        <h3 class="text-center">@Localizer.GetLocalizedHtmlString("lbl_TitleBrand")</h3>
+        
+        @if (ViewBag.Count == 0)
+        {
+            <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_NotData") - <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>
+        }
+        else
+        {
+            <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_Find"): 
+                @ViewBag.Count 
+                @(ViewBag.Count > 1 ? Localizer.GetLocalizedHtmlString("lbl_Brands") : Localizer.GetLocalizedHtmlString("lbl_Brand"))
+                <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>
+            <form method="post" enctype="multipart/form-data" asp-action="ImportExcelBrand" asp-controller="Brand" style="float: right">
+                
+                <input type="file" name="formFile" id="formFile"/>
+                <button type="submit" style="color: black" type="button" class="btn btn-primary btn-sm">
+                    @CommonLocalizer.GetLocalizedHtmlString("ImportExcel")
+                </button>
+                <a asp-action="ExportExcelBrand" style="color: black;" type="button" class="btn btn-primary btn-sm">
+                    @CommonLocalizer.GetLocalizedHtmlString("ExportExcel")
+                </a>
+            </form>
+        }
+        <table id="table_id" class="table table-bordered">
+            <thead class="text-center">
+            <tr>
+                <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_NumericalOrder")</th>
+                <th>@Localizer.GetLocalizedHtmlString("lbl_BrandName")</th>
+                <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_Action")</th>
+            </tr>
+            </thead>
+            <tbody>
+            @{ var i = 0;}
+            @foreach (var item  in Model)
+            {
+                i += 1;
+                <tr>
+                    <td>@i</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.BrandName)
+                    </td >
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id"><img src='~/image/edit.png' width='40'/></a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('@CommonLocalizer.GetLocalizedHtmlString("msg_QuestionDelete")')">
+                            <img src='~/image/delete.png'width='40'/>
+                        </a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
