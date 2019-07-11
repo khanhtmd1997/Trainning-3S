@@ -63,13 +63,4 @@
     <data name="lbl_Brand">
         <value>Nhãn Hiệu</value>
     </data>
-    <data name="err_Import">
-        <value>Nhập tập tin thất bại</value>
-    </data>
-    <data name="msg_ImportSuccess">
-        <value>Nhập tập tin thành công</value>
-    </data>
-    <data name="msg_EmportSuccess">
-        <value>Xuất tập tin thành công</value>
-    </data>
 </root>

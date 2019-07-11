@@ -26,14 +26,21 @@ namespace TaskTranning.Controllers
         private readonly ResourcesServices<BrandResource> _resourcesServices;
         
         /// <summary>
+        /// declare product resources
+        /// </summary>
+        private readonly ResourcesServices<CommonResource> _commonResource;
+
+        /// <summary>
         /// 
         /// </summary>
         /// <param name="brandServices">declare brandServices</param>
         /// <param name="resourcesServices"></param>
-        public BrandController(IBrandServices brandServices, ResourcesServices<BrandResource> resourcesServices)
+        /// <param name="commonResource"></param>
+        public BrandController(IBrandServices brandServices, ResourcesServices<BrandResource> resourcesServices,ResourcesServices<CommonResource> commonResource)
         {
             _brandServices = brandServices;
             _resourcesServices = resourcesServices;
+            _commonResource = commonResource;
         }
         
         /// <summary>
@@ -43,9 +50,8 @@ namespace TaskTranning.Controllers
         [HttpGet]
         public IActionResult ExportExcelBrand()
         {
-            var comlumHeadrs = new string[]
+            var comlumHeadrs = new[]
             {
-                "Brand Id",
                 "Brand Name"
             };
             byte[] result;
@@ -68,8 +74,8 @@ namespace TaskTranning.Controllers
                 var j = 2;
                 foreach (var brand in _brandServices.GetBrands())
                 {
-                    worksheet.Cells["A" + j].Value = brand.Id;
-                    worksheet.Cells["B" + j].Value = brand.BrandName;
+                    //worksheet.Cells["A" + j].Value = brand.Id;
+                    worksheet.Cells["A" + j].Value = brand.BrandName;
                     j++;
                 }
 
@@ -83,21 +89,21 @@ namespace TaskTranning.Controllers
         {  
             if (formFile == null || formFile.Length <= 0)
             {
-                TempData["importError"] = _resourcesServices.GetLocalizedHtmlString("err_Import").ToString();
+                TempData["importError"] = _commonResource.GetLocalizedHtmlString("err_Import").ToString();
                 return Redirect("Index");  
             }  
             if (!Path.GetExtension(formFile.FileName).Equals(".xlsx", StringComparison.OrdinalIgnoreCase))  
             {  
-                TempData["importError"] = _resourcesServices.GetLocalizedHtmlString("err_Import").ToString();
+                TempData["importError"] = _commonResource.GetLocalizedHtmlString("err_Import").ToString();
                 return Redirect("Index");  
             }
             var import = await _brandServices.ImporTask(formFile);
             if (import)
             {
-                TempData["importSuccess"] = _resourcesServices.GetLocalizedHtmlString("msg_ImportSuccess").ToString();
+                TempData["importSuccess"] = _commonResource.GetLocalizedHtmlString("msg_ImportSuccess").ToString();
                 return Redirect("Index");
             }
-            TempData["importError"] = _resourcesServices.GetLocalizedHtmlString("err_Import").ToString();
+            TempData["importError"] = _commonResource.GetLocalizedHtmlString("err_Import").ToString();
             return Redirect("Index");
         }  
         /// <summary>

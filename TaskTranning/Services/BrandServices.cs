@@ -167,9 +167,13 @@ namespace TaskTranning.Services
                         {
                             var brand = new BrandViewModel
                             {
-                                Id = int.Parse(worksheet.Cells[row, 1].Value.ToString().Trim()),
-                                BrandName = worksheet.Cells[row, 2].Value.ToString().Trim()
+                                //Id = int.Parse(worksheet.Cells[row, 1].Value.ToString().Trim()),
+                                BrandName = worksheet.Cells[row, 1].Value.ToString().Trim()
                             };
+                            if (_context.Brand.Any(x => x.BrandName == brand.BrandName))
+                            {
+                                continue;
+                            }
                             await CreateBrand(brand);
                         }
                     }

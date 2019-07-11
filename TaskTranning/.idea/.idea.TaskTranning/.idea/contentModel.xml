@@ -34,6 +34,7 @@
         <e p="log-20190617.txt" t="Include" />
         <e p="log-20190709.txt" t="Include" />
         <e p="log-20190710.txt" t="Include" />
+        <e p="log-20190711.txt" t="Include" />
       </e>
       <e p="Migrations" t="Include">
         <e p="20190523074112_AddUser.Designer.cs" t="Include" />
@@ -332,6 +333,7 @@
         </e>
         <e p="js" t="Include">
           <e p="Chart.min.js" t="Include" />
+          <e p="bootstrap-filestyle.min.js" t="Include" />
           <e p="bootstrap.min.js" t="Include" />
           <e p="dataTables.bootstrap4.min.js" t="Include" />
           <e p="highcharts.js" t="Include" />

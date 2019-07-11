@@ -48,4 +48,13 @@
     <data name="ImportExcel">
         <value>Import</value>
     </data>
+    <data name="lbl_File">
+        <value>Select file</value>
+    </data>
+    <data name="err_Import">
+        <value>Import File Error</value>
+    </data>
+    <data name="msg_ImportSuccess">
+        <value>Import File Success</value>
+    </data>
 </root>

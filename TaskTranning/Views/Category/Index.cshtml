@@ -7,45 +7,65 @@
     ViewBag.Title = Localizer.GetLocalizedHtmlString("lbl_TitleCategory");
     Layout = "_NavbarDataTable";
 }
-    <div class="sectionContent">
-        <h3 class="text-center">@Localizer.GetLocalizedHtmlString("lbl_TitleCategory")</h3>
-        @if (ViewBag.Count == 0)
+<div class="sectionContent">
+    <h3 class="text-center">@Localizer.GetLocalizedHtmlString("lbl_TitleCategory")</h3>
+    @if (ViewBag.Count == 0)
+    {
+        <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_NotData") - <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>
+    }
+    else
+    {
+        <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_Find"): 
+            @ViewBag.Count 
+            @(ViewBag.Count > 1 ? Localizer.GetLocalizedHtmlString("lbl_Categories") : Localizer.GetLocalizedHtmlString("lbl_Category"))
+            <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>           
+    }
+    <div class="excel-file">
+        <form method="post" enctype="multipart/form-data" asp-action="ImportExcelCategory">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <input type="file" name="formFile" id="formFile" class="form-control"/>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" type="button" class="btn btn-sm form-control im-export">
+                        @CommonLocalizer.GetLocalizedHtmlString("ImportExcel")
+                    </button>
+                </div>
+                <div class="col-md-2">
+                    <a asp-action="ExportExcelCategory" class="btn btn-sm form-control im-export">
+                        @CommonLocalizer.GetLocalizedHtmlString("ExportExcel")
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <table id="table_id" class="table table-bordered">
+        <thead class="text-center">
+        <tr>
+            <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_NumericalOrder")</th>
+            <th>@Localizer.GetLocalizedHtmlString("lbl_CategoryName")</th>
+            <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_Action")</th>
+        </tr>
+        </thead>
+        <tbody>
+        @{ var i = 0;}
+        @foreach (var item  in Model)
         {
-            <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_NotData") - <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>
-        }
-        else
-        {
-            <p class="text-right">@CommonLocalizer.GetLocalizedHtmlString("lbl_Find"): 
-                @ViewBag.Count 
-                @(ViewBag.Count > 1 ? Localizer.GetLocalizedHtmlString("lbl_Categories") : Localizer.GetLocalizedHtmlString("lbl_Category"))
-                <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>
-        }
-        <table id="table_id" class="table table-bordered">
-            <thead class="text-center">
+            i += 1;
             <tr>
-                <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_NumericalOrder")</th>
-                <th>@Localizer.GetLocalizedHtmlString("lbl_CategoryName")</th>
-                <th>@CommonLocalizer.GetLocalizedHtmlString("lbl_Action")</th>
+                <td>@i</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryName)
+                </td >
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id"><img src='~/image/edit.png' width='40'/></a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('@CommonLocalizer.GetLocalizedHtmlString("msg_QuestionDelete")')">
+                        <img src='~/image/delete.png'width='40'/>
+                    </a>
+                </td>
             </tr>
-            </thead>
-            <tbody>
-            @{ var i = 0;}
-            @foreach (var item  in Model)
-            {
-                i += 1;
-                <tr>
-                    <td>@i</td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.CategoryName)
-                    </td >
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id"><img src='~/image/edit.png' width='40'/></a>
-                        <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('@CommonLocalizer.GetLocalizedHtmlString("msg_QuestionDelete")')">
-                            <img src='~/image/delete.png'width='40'/>
-                        </a>
-                    </td>
-                </tr>
-            }
-            </tbody>
-        </table>
-     </div>
+        }
+        </tbody>
+    </table>
+</div>

@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using OfficeOpenXml;
 using TaskTranning.Models;
 using TaskTranning.ViewModels;
 
@@ -140,6 +143,47 @@ namespace TaskTranning.Services
         public bool IsExistedName(string name, int id)
         {
             return _context.Category.Any(x => x.CategoryName == name && x.Id != id);
+        }
+        
+        /// <inheritdoc />
+        /// <summary>
+        /// </summary>
+        /// <param name="formFile"></param>
+        /// <returns></returns>
+        public async Task<bool> ImporTask(IFormFile formFile)
+        {
+            try
+            {
+                using (var stream = new MemoryStream())
+                {
+                    await formFile.CopyToAsync(stream);
+                    using (var package = new ExcelPackage(stream))
+                    {
+                        ExcelWorksheet worksheet = package.Workbook.Worksheets.First();
+                        var rowCount = worksheet.Dimension.Rows;
+                        for (int row = 2; row <= rowCount; row++)
+                        {
+                            
+                            var category = new CategoryViewModel
+                            {
+                                //Id = int.Parse(worksheet.Cells[row, 1].Value.ToString().Trim()),
+                                CategoryName = worksheet.Cells[row, 1].Value.ToString().Trim()
+                            };
+                            if (_context.Category.Any(x => x.CategoryName == category.CategoryName))
+                            {
+                                continue;
+                            }
+                            await CreateCategory(category);
+                        }
+                    }
+                }
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.Write(e);
+                return false;
+            }
         }
     }
 }

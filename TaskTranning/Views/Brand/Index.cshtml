@@ -20,17 +20,26 @@
                 @ViewBag.Count 
                 @(ViewBag.Count > 1 ? Localizer.GetLocalizedHtmlString("lbl_Brands") : Localizer.GetLocalizedHtmlString("lbl_Brand"))
                 <a asp-action="Create"><img src='~/image/create.png' width='35'/></a></p>
-            <form method="post" enctype="multipart/form-data" asp-action="ImportExcelBrand" asp-controller="Brand" style="float: right">
-                
-                <input type="file" name="formFile" id="formFile"/>
-                <button type="submit" style="color: black" type="button" class="btn btn-primary btn-sm">
-                    @CommonLocalizer.GetLocalizedHtmlString("ImportExcel")
-                </button>
-                <a asp-action="ExportExcelBrand" style="color: black;" type="button" class="btn btn-primary btn-sm">
-                    @CommonLocalizer.GetLocalizedHtmlString("ExportExcel")
-                </a>
-            </form>
         }
+        <div class="excel-file">
+            <form method="post" enctype="multipart/form-data" asp-action="ImportExcelBrand">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <input type="file" name="formFile" id="formFile" class="form-control"/>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" type="button" class="btn btn-sm form-control im-export">
+                            @CommonLocalizer.GetLocalizedHtmlString("ImportExcel")
+                        </button>
+                    </div>
+                    <div class="col-md-2">
+                        <a asp-action="ExportExcelBrand" class="btn btn-sm form-control im-export">
+                            @CommonLocalizer.GetLocalizedHtmlString("ExportExcel")
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
         <table id="table_id" class="table table-bordered">
             <thead class="text-center">
             <tr>

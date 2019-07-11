@@ -63,13 +63,4 @@
     <data name="lbl_Brand">
         <value>Brand</value>
     </data>
-    <data name="err_Import">
-        <value>Import File Error</value>
-    </data>
-    <data name="msg_ImportSuccess">
-        <value>Import File Success</value>
-    </data>
-    <data name="msg_EmportSuccess">
-        <value>Export File Success</value>
-    </data>
 </root>

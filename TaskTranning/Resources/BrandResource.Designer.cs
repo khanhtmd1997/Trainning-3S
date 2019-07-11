@@ -135,23 +135,5 @@ namespace TaskTranning.Resources {
                 return ResourceManager.GetString("lbl_Brand", resourceCulture);
             }
         }
-        
-        public static string err_Import {
-            get {
-                return ResourceManager.GetString("err_Import", resourceCulture);
-            }
-        }
-        
-        public static string msg_ImportSuccess {
-            get {
-                return ResourceManager.GetString("msg_ImportSuccess", resourceCulture);
-            }
-        }
-        
-        public static string msg_EmportSuccess {
-            get {
-                return ResourceManager.GetString("msg_EmportSuccess", resourceCulture);
-            }
-        }
     }
 }

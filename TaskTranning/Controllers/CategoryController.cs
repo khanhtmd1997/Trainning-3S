@@ -1,6 +1,10 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.IO;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using OfficeOpenXml;
 using Serilog;
 using TaskTranning.Resources;
 using TaskTranning.Services;
@@ -20,16 +24,84 @@ namespace TaskTranning.Controllers
         /// declare category resource
         /// </summary>
         private readonly ResourcesServices<CategoryResource> _resourcesServices;
+        
+        /// <summary>
+        /// declare category resource
+        /// </summary>
+        private readonly ResourcesServices<CommonResource> _commonResource;
 
         /// <summary>
         /// 
         /// </summary>
         /// <param name="categoryServices">declare categoryServices</param>
         /// <param name="resourcesServices"></param>
-        public CategoryController(ICategoryServices categoryServices,ResourcesServices<CategoryResource> resourcesServices)
+        /// <param name="commonResource"></param>
+        public CategoryController(ICategoryServices categoryServices,
+            ResourcesServices<CategoryResource> resourcesServices,ResourcesServices<CommonResource> commonResource)
         {
             _categoryServices = categoryServices;
             _resourcesServices = resourcesServices;
+            _commonResource = commonResource;
+        }
+
+        public IActionResult ExportExcelCategory()
+        {
+            var columnTitle = new[]
+            {
+                "Category Name"
+            };
+            using (var package = new ExcelPackage())
+            {
+                var worksheet = package.Workbook.Worksheets.Add("Category");
+                using (var cells = worksheet.Cells[1, 1, 1, 5]) //(1,1) (1,5)
+                {
+                    cells.Style.Font.Bold = true;
+                }
+
+                for (var i = 0; i < columnTitle.Length; i++)
+                {
+                    worksheet.Cells[1, i + 1].Value = columnTitle[i];
+                }
+
+                var j = 2;
+                foreach (var category in _categoryServices.GetCategories())
+                {
+                    //worksheet.Cells["A" + j].Value = category.Id;
+                    worksheet.Cells["A" + j].Value = category.CategoryName;
+                    j++;
+                }
+
+                var result = package.GetAsByteArray();
+                return File(result, "application/ms-excel", $"Category.xlsx");
+            }
+        }
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="formFile"></param>
+        /// <returns></returns>
+        public async Task<IActionResult> ImportExcelCategory(IFormFile formFile)
+        {
+            if (formFile == null || formFile.Length <= 0)
+            {
+                TempData["importError"] = _commonResource.GetLocalizedHtmlString("err_Import").ToString();
+                return Redirect("Index"); 
+            }
+            if (!Path.GetExtension(formFile.FileName).Equals(".xlsx", StringComparison.OrdinalIgnoreCase))  
+            {  
+                TempData["importError"] = _commonResource.GetLocalizedHtmlString("err_Import").ToString();
+                return Redirect("Index");  
+            }
+
+            var import = await _categoryServices.ImporTask(formFile);
+            if (import)
+            {
+                TempData["importSuccess"] = _commonResource.GetLocalizedHtmlString("msg_ImportSuccess").ToString();
+                return Redirect("Index");
+            }
+            TempData["importError"] = _commonResource.GetLocalizedHtmlString("err_Import").ToString();
+            return Redirect("Index");
         }
 
         /// <summary>

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using TaskTranning.Models;
 using TaskTranning.ViewModels;
 
@@ -54,5 +55,12 @@ namespace TaskTranning.Services
         /// <param name="id"></param>
         /// <returns>Is Existed Name</returns>
         bool IsExistedName(string name, int id);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="formFile"></param>
+        /// <returns></returns>
+        Task<bool> ImporTask(IFormFile formFile);
     }
 }

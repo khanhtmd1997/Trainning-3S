@@ -72,3 +72,26 @@ h3{
     height: 40px;
     width: 400px;
 }
+.excel-file{
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+#formFile{
+    line-height: 15px;
+    border-style: ridge;
+    height: 43px;
+}
+/*.label-file{*/
+    /*height: 39px!important;*/
+    /*border: 1px solid!important;*/
+    /*border-style: inset!important;*/
+/*}*/
+.im-export{
+    height: 43px!important;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue!important;
+    background-color: #2cb8d2!important;
+}
+.close{
+    margin: -10px -10px;
+}

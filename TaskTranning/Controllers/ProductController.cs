@@ -1,7 +1,12 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Drawing;
+using System.IO;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using OfficeOpenXml;
 using Serilog;
 using TaskTranning.Resources;
 using TaskTranning.Services;
@@ -33,6 +38,11 @@ namespace TaskTranning.Controllers
         /// declare product resources
         /// </summary>
         private readonly ResourcesServices<ProductResource> _resourcesServices;
+        
+        /// <summary>
+        /// declare product resources
+        /// </summary>
+        private readonly ResourcesServices<CommonResource> _commonResource;
 
         /// <summary>
         /// 
@@ -41,15 +51,104 @@ namespace TaskTranning.Controllers
         /// <param name="brandServices"></param>
         /// <param name="categoryServices"></param>
         /// <param name="resourcesServices"></param>
+        /// <param name="commonResource"></param>
         public ProductController(IProductServices productServices,IBrandServices brandServices,ICategoryServices categoryServices,
-            ResourcesServices<ProductResource> resourcesServices)
+            ResourcesServices<ProductResource> resourcesServices,ResourcesServices<CommonResource> commonResource)
         {
             _productServices = productServices;
             _brandServices = brandServices;
             _categoryServices = categoryServices;
             _resourcesServices = resourcesServices;
+            _commonResource = commonResource;
         }
         
+        /// <summary>
+        /// ExportExcelProduct
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public IActionResult ExportExcelProduct()
+        {
+            var columnTitle = new string[]
+            {
+                "Product Name",
+                "Brand Name",
+                "CategoryName",
+                "Model Year",
+                "List Price"
+            };
+
+            byte[] result;
+            using (var package = new ExcelPackage())
+            {
+                var worksheet = package.Workbook.Worksheets.Add("Product");
+                using (var cells = worksheet.Cells[1,1,1,5])
+                {
+                    cells.Style.Font.Bold = true;
+                }
+
+                for (var i = 0; i < columnTitle.Length; i++)
+                {
+                    worksheet.Cells[1, i + 1].Value = columnTitle[i];
+                }
+
+                var j = 2;
+                foreach (var product in _productServices.GetProducts())
+                {
+                    worksheet.Cells["A" + j].Value = product.ProductName;
+                    worksheet.Cells["B" + j].Value = product.BrandId;
+                    worksheet.Cells["C" + j].Value = product.CategoryId;
+                    worksheet.Cells["D" + j].Value = product.ModelYear;
+                    worksheet.Cells["E" + j].Value = product.ListPrice;
+                    j++;
+                }
+
+                var b = 2;
+                foreach (var brand in _brandServices.GetBrands() )
+                {
+                    worksheet.Cells["G" + b].Value = brand.Id;
+                    worksheet.Cells["H" + b].Value = brand.BrandName;
+                    b++;
+                }
+                
+                var c  = 2;
+                foreach (var category in _categoryServices.GetCategories() )
+                {
+                    worksheet.Cells["J" + c].Value = category.Id;
+                    worksheet.Cells["K" + c].Value = category.CategoryName;
+                    c++;
+                }
+
+                result = package.GetAsByteArray();
+            }
+
+            return File(result,"application/ms-excel",$"Product.xlsx");
+        }
+
+        public async Task<IActionResult> ImportExcelProduct(IFormFile formFile)
+        {
+            if (formFile == null || formFile.Length <= 0)
+            {
+                TempData["importError"] = _commonResource.GetLocalizedHtmlString("err_Import").ToString();
+                return Redirect("Index");
+            }
+
+            if (!Path.GetExtension(formFile.FileName).Equals(".xlsx", StringComparison.OrdinalIgnoreCase))
+            {
+                TempData["importError"] = _commonResource.GetLocalizedHtmlString("err_Import").ToString();
+                return Redirect("Index");
+            }
+
+            var import =await _productServices.ImporTask(formFile);
+            if (import)
+            {
+                TempData["importSuccess"] = _commonResource.GetLocalizedHtmlString("msg_ImportSuccess").ToString();
+                return Redirect("Index");
+            }
+            TempData["importError"] = _commonResource.GetLocalizedHtmlString("err_Import").ToString();
+            return Redirect("Index");
+        }
+
         /// <summary>
         /// 
         /// </summary>

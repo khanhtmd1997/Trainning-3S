@@ -93,5 +93,23 @@ namespace TaskTranning.Resources {
                 return ResourceManager.GetString("lbl_NumericalOrder", resourceCulture);
             }
         }
+        
+        public static string ExportExcel {
+            get {
+                return ResourceManager.GetString("ExportExcel", resourceCulture);
+            }
+        }
+        
+        public static string ImportExcel {
+            get {
+                return ResourceManager.GetString("ImportExcel", resourceCulture);
+            }
+        }
+        
+        public static string lbl_File {
+            get {
+                return ResourceManager.GetString("lbl_File", resourceCulture);
+            }
+        }
     }
 }
